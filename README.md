@@ -1,4 +1,4 @@
-# DeepLearning-Tricks
+# Deep Learning Tricks
 
 
 ## 模型效果差的原因
