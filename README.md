@@ -249,6 +249,49 @@ A rule of thumb that [people are using ](https://discuss.pytorch.org/t/guideline
 
 **7.Max out the batch size**
 
+It seems like using the largest batch size your GPU memory permits **will accelerate your training** . Note that you will also have to adjust other hyperparameters, such as the learning rate, if you modify the batch size. **A rule of thumb here is to double the learning rate as you double the batch size.**
+
+ **Might lead to solutions that generalize worse than those trained with smaller batches.**
+
+
+
+**8. Use Automatic Mixed Precision (AMP)**
+
+The release of PyTorch 1.6 included a native implementation of Automatic Mixed Precision training to PyTorch. The main idea here is that certain operations can be run faster and without a loss of accuracy at semi-precision (FP16) rather than in the single-precision (FP32) used elsewhere. AMP, then, automatically decide which operation should be executed in which format. This allows both for faster training and a smaller memory footprint.
+
+
+
+**9.Using another optimizer**
+
+AdamW is Adam with weight decay (rather than L2-regularization) and is now available natively in PyTorch as 
+`torch.optim.AdamW`. AdamW seems to consistently outperform Adam in terms of both the error achieved and the training time. 
+
+Both Adam and AdamW work well with the 1Cycle policy described above.
+
+
+
+**10.Turn on cudNN benchmarking**
+
+If your model architecture remains fixed and your input size stays constant, setting `torch.backends.cudnn.benchmark = True` might be beneficial. 
+
+
+
+**11.Beware of frequently transferring data between CPUs and GPUs**
+
+Beware of frequently transferring tensors from a GPU to a CPU using`tensor.cpu()` and vice versa using `tensor.cuda()` as these are relatively expensive. The same applies for `.item()` and `.numpy()` – use `.detach()` instead.
+
+If you are creating a new tensor, you can also directly assign it to your GPU using the keyword argument `device=torch.device('cuda:0')`.
+
+If you do need to transfer data, using `.to(device, non_blocking=True)`, might be useful [as long as you don't have any synchronization points](https://discuss.pytorch.org/t/should-we-set-non-blocking-to-true/38234/4) after the transfer.
+
+
+
+**12.Use gradient/activation checkpointing**
+
+> Checkpointing works by trading compute for memory. Rather than storing all intermediate activations of the entire computation graph for computing backward, **the checkpointed part does not save intermediate activations, and instead recomputes them in backward pass.** It can be applied on any part of a model.
+
+> Specifically, in the forward pass, `function` will run in [`torch.no_grad()`](https://pytorch.org/docs/stable/generated/torch.no_grad.html#torch.no_grad)manner, i.e., not storing the intermediate activations. Instead, the forward pass saves the inputs tuple and the `function` parameter. In the backwards pass, the saved inputs and `function` is retrieved, and the forward pass is computed on `function` again, now tracking the intermediate activations, and then the gradients are calculated using these activation values.
+
 
 
 ## 2020珠港澳人工智能算法大赛
