@@ -332,11 +332,30 @@ Watch out, **doing this is not side-effect free**! Check the docs for the detail
 
 **17.Use gradient clipping**
 
+In PyTorch this can be done using `torch.nn.utils.clip_grad_norm_`([documentation](https://pytorch.org/docs/stable/generated/torch.nn.utils.clip_grad_norm_.html#torch.nn.utils.clip_grad_norm_)).
 
 
 
+**18.Turn off bias before BatchNorm**
+
+This is a very simple one: turn off the bias of layers before BatchNormalization layers. For a 2-D convolutional layer, this can be done by setting the bias keyword to False: `torch.nn.Conv2d(..., bias=False, ...)`.
 
 
+
+**19.Turn off gradient computation during validation**
+
+This one is straightforward: set `torch.no_grad()` during validation.
+
+
+
+**20.Use input and batch normalization**
+
+You're probably already doing this but you might want to double-check:
+
+- Are you [normalizing](https://pytorch.org/docs/stable/torchvision/transforms.html) your input? 
+- Are you using [batch-normalization](https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html)?
+
+And [here's](https://stats.stackexchange.com/questions/437840/in-machine-learning-how-does-normalization-help-in-convergence-of-gradient-desc) a reminder of why you probably should.
 
 
 
