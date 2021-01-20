@@ -292,6 +292,52 @@ If you do need to transfer data, using `.to(device, non_blocking=True)`, might b
 
 > Specifically, in the forward pass, `function` will run in [`torch.no_grad()`](https://pytorch.org/docs/stable/generated/torch.no_grad.html#torch.no_grad)manner, i.e., not storing the intermediate activations. Instead, the forward pass saves the inputs tuple and the `function` parameter. In the backwards pass, the saved inputs and `function` is retrieved, and the forward pass is computed on `function` again, now tracking the intermediate activations, and then the gradients are calculated using these activation values.
 
+So while this will might slightly increase your run time for a given batch size, you'll significantly reduce your memory footprint. This in turn will allow you to further increase the batch size you're using allowing for better GPU utilization.
+
+While checkpointing is implemented natively as `torch.utils.checkpoint`([docs](https://pytorch.org/docs/stable/checkpoint.html)), it does seem to take some thought and effort to implement properly. 
+
+
+
+**13.Use gradient accumulation**
+
+Another approach to increasing the batch size is to accumulate gradients across multiple `.backward()` passes before calling `optimizer.step()`.
+
+This method was developed mainly to circumvent GPU memory limitations and I'm not entirely clear on the trade-off between having additional `.backward()` loops.
+
+
+
+**14.Use Distributed Data Parallel for multi-GPU training**
+
+one simple one is to use `torch.nn.DistributedDataParallel` rather than `torch.nn.DataParallel`. By doing so, each GPU will be driven by a dedicated CPU core avoiding the GIL issues of `DataParallel`.
+
+https://pytorch.org/tutorials/beginner/dist_overview.html
+
+
+
+**15.Set gradients to None rather than 0**
+
+Use `.zero_grad(set_to_none=True)` rather than `.zero_grad()`.
+
+Doing so will let the memory allocator handle the gradients rather than actively setting them to 0. This will lead to yield a *modest* speed-up as they say in the [documentation](https://pytorch.org/docs/stable/optim.html), so don't expect any miracles.
+
+Watch out, **doing this is not side-effect free**! Check the docs for the details on this.
+
+
+
+**16.Use `.as_tensor()` rather than `.tensor()`**
+
+`torch.tensor()` always copies data. If you have a numpy array that you want to convert, use `torch.as_tensor()` or `torch.from_numpy()` to avoid copying the data.
+
+
+
+**17.Use gradient clipping**
+
+
+
+
+
+
+
 
 
 ## 2020珠港澳人工智能算法大赛
