@@ -1,6 +1,7 @@
 # Deep Learning Tricks
 
 
+
 ## 模型效果差的原因
 
 ```
@@ -187,15 +188,11 @@ https://pytorch.org/docs/stable/bottleneck.html
 
 
 
-
-
 **2.图片解码**
 
 PyTorch中默认使用的是Pillow进行图像的解码，但是其效率要比Opencv差一些，如果图片全部是JPEG格式，可以考虑使用TurboJpeg库解码。具体速度对比如下图所示：
 
 ![图片](https://mmbiz.qpic.cn/mmbiz_png/SdQCib1UzF3szsSYrT2hU8JJhwlWibS4D4VHHTZKQXPuWDzfOiaaN26v6egU70QOWv5p4yUonYPPMqBnyXiaYlhqZg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-
 
 
 
@@ -213,16 +210,12 @@ Dali文档：https://docs.nvidia.com/deeplearning/sdk/dali-developer-guide/index
 
 
 
-
-
 **4.data Prefetch**
 
 ```
 https://zhuanlan.zhihu.com/p/66145913
 https://zhuanlan.zhihu.com/p/97190313
 ```
-
-
 
 
 
@@ -246,15 +239,11 @@ Sylvain writes:
 
 
 
-
-
 **6.Use multiple workers and pinned memory in `DataLoader`**
 
 When using [`torch.utils.data.DataLoader`](https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader), set `num_workers > 0`, rather than the default value of 0, and `pin_memory=True`, rather than the default value of `False`. 
 
 A rule of thumb that [people are using ](https://discuss.pytorch.org/t/guidelines-for-assigning-num-workers-to-dataloader/813/5)to choose **the number of workers is to set it to four times the number of available GPUs** with both **a larger and smaller number of workers leading to a slow down.**
-
-
 
 
 
