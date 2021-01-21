@@ -63,3 +63,23 @@ for i in range(nb_epochs):
     params = params - learning_rate * params_grad
 ```
 
+
+
+### Mini-batch gradient descent
+
+小批量梯度下降法最终结合了上述两种方法的优点，在每次更新时使用$n$个小批量训练样本：
+$$
+\theta = \theta - \eta \cdot \nabla_\theta J( \theta; x^{(i:i+n)}; y^{(i:i+n)})
+$$
+这种方法，a)减少参数更新的方差，这样可以得到更加稳定的收敛结果；b)可以利用最新的深度学习库中高度优化的矩阵优化方法，高效地求解每个小批量数据的梯度。通常，小批量数据的大小在50到256之间，也可以根据不同的应用有所变化。当训练神经网络模型时，小批量梯度下降法是典型的选择算法，当使用小批量梯度下降法时，也将其称为SGD。注意：在下文的改进的SGD中，为了简单，我们省略了参数$x^{(i:i+n)}; y^{(i:i+n)}$。
+
+在代码中，不是在所有样本上做迭代，我们现在只是在大小为50的小批量数据上做迭代：
+
+```
+for i in range(nb_epochs):
+  np.random.shuffle(data)
+  for batch in get_batches(data, batch_size=50):
+    params_grad = evaluate_gradient(loss_function, batch, params)
+    params = params - learning_rate * params_grad
+```
+
