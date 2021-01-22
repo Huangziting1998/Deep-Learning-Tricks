@@ -218,3 +218,13 @@ $$
 $$
 RMS[\Delta \theta]_{t} = \sqrt{E[\Delta \theta^2]_t + \epsilon}
 $$
+由于$RMS[Δθ]_t$是未知的，我们利用参数的均方根误差来近似更新。利用$RMS[Δθ]_{t−1}$替换先前的更新规则中的学习率$η$，最终得到Adadelta的更新规则：
+$$
+\begin{align} 
+\begin{split} 
+\Delta \theta_t &= - \dfrac{RMS[\Delta \theta]_{t-1}}{RMS[g]_{t}} g_{t} \\ 
+\theta_{t+1} &= \theta_t + \Delta \theta_t 
+\end{split} 
+\end{align}
+$$
+使用Adadelta算法，我们甚至都无需设置默认的学习率，因为更新规则中已经移除了学习率。
