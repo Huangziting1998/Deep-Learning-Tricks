@@ -190,7 +190,7 @@ Adadelta是Adagrad的一种扩展算法，以处理Adagrad学习速率单调递�
 $$
 E[g^2]_t = \gamma E[g^2]_{t-1} + (1 - \gamma) g^2_t
 $$
-们将γ设置成与动量项相似的值，即0.9左右。为了简单起见，我们利用参数更新向量$Δθ_t$重新表示SGD的更新过程：
+将γ设置成与动量项相似的值，即0.9左右。为了简单起见，我们利用参数更新向量$Δθ_t$重新表示SGD的更新过程：
 $$
 \begin{align} 
 \begin{split} 
@@ -209,4 +209,12 @@ $$
 由于分母仅仅是梯度的均方根（root mean squared，RMS）误差，我们可以简写为：
 $$
 \Delta \theta_t = - \dfrac{\eta}{RMS[g]_{t}} g_t
+$$
+作者指出上述更新公式中的每个部分（与SGD，动量法或者Adagrad）并不一致，即更新规则中必须与参数具有相同的假设单位。为了实现这个要求，作者首次定义了另一个指数衰减均值，这次不是梯度平方，而是参数的平方的更新：
+$$
+E[\Delta \theta^2]_t = \gamma E[\Delta \theta^2]_{t-1} + (1 - \gamma) \Delta \theta^2_t
+$$
+因此，参数更新的均方根误差为：
+$$
+RMS[\Delta \theta]_{t} = \sqrt{E[\Delta \theta^2]_t + \epsilon}
 $$
