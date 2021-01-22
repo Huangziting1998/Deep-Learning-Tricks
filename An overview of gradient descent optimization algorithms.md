@@ -162,7 +162,7 @@ Adagrad是这样的一种基于梯度的优化算法：让学习率适应参数�
 $$
 g_{t, i} = \nabla_\theta J( \theta_{t, i} )
 $$
-在t时刻，对每个参数θi的更新过程变为：
+在$t$时刻，对每个参数$θ_i$的更新过程变为：
 $$
 \theta_{t+1, i} = \theta_{t, i} - \eta \cdot g_{t, i}
 $$
@@ -176,7 +176,7 @@ $$
 $$
 \theta_{t+1} = \theta_{t} - \dfrac{\eta}{\sqrt{G_{t} + \epsilon}} \odot g_{t}
 $$
-Adagrad算法的一个主要优点是无需手动调整学习率。在大多数的应用场景中，通常采用常数0.01。
+Adagrad算法的一个主要优点是**无需手动调整学习率**。在大多数的应用场景中，通常采用常数0.01。
 
 Adagrad的一个主要缺点是它在分母中累加梯度的平方：由于没增加一个正项，在整个训练过程中，累加的和会持续增长。这会导致学习率变小以至于最终变得无限小，在学习率无限小时，Adagrad算法将无法取得额外的信息。接下来的算法旨在解决这个不足。
 
@@ -210,7 +210,7 @@ $$
 $$
 \Delta \theta_t = - \dfrac{\eta}{RMS[g]_{t}} g_t
 $$
-作者指出上述更新公式中的每个部分（与SGD，动量法或者Adagrad）并不一致，即更新规则中必须与参数具有相同的假设单位。为了实现这个要求，作者首次定义了另一个指数衰减均值，这次不是梯度平方，而是参数的平方的更新：
+作者指出上述更新公式中的每个部分单位（与SGD，动量法或者Adagrad中的单位）并不一致，即：更新规则中必须与参数具有相同的假设单位。为了实现这个要求，作者首次定义了另一个指数衰减均值，这次不是梯度平方，而是参数的平方的更新：
 $$
 E[\Delta \theta^2]_t = \gamma E[\Delta \theta^2]_{t-1} + (1 - \gamma) \Delta \theta^2_t
 $$
@@ -228,3 +228,50 @@ $$
 \end{align}
 $$
 使用Adadelta算法，我们甚至都无需设置默认的学习率，因为更新规则中已经移除了学习率。
+
+
+
+### RMSprop
+
+RMSprop是一个未被发表的自适应学习率的算法，该算法由Geoff Hinton在其[Coursera课堂的课程6e](http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf)中提出。
+
+RMSprop和Adadelta在相同的时间里被独立的提出，都起源于对Adagrad的极速递减的学习率问题的求解。实际上，RMSprop是先前我们讨论的Adadelta的第一个更新向量的特例：
+$$
+\begin{align} 
+\begin{split} 
+E[g^2]_t &= 0.9 E[g^2]_{t-1} + 0.1 g^2_t \\ 
+\theta_{t+1} &= \theta_{t} - \dfrac{\eta}{\sqrt{E[g^2]_t + \epsilon}} g_{t} 
+\end{split} 
+\end{align}
+$$
+同样，RMSprop将学习率分解成一个平方梯度的指数衰减的平均。Hinton建议将γ设置为0.9，对于学习率η，一个好的固定值为0.001。
+
+
+
+### Adam
+
+自适应矩估计（Adaptive Moment Estimation，Adam）是另一种自适应学习率的算法，Adam对每一个参数都计算自适应的学习率。除了像Adadelta和RMSprop一样存储一个指数衰减的历史平方梯度的平均$v_t$，Adam同时还保存一个历史梯度的指数衰减均值$m_t$，类似于动量：
+$$
+\begin{align} 
+\begin{split} 
+m_t &= \beta_1 m_{t-1} + (1 - \beta_1) g_t \\ 
+v_t &= \beta_2 v_{t-1} + (1 - \beta_2) g_t^2 
+\end{split} 
+\end{align}
+$$
+$m_t$和$v_t$分别是对梯度的一阶矩（均值）和二阶矩（非确定的方差）的估计，正如该算法的名称。当$m_t$和$v_t$初始化为0向量时，Adam的作者发现它们都偏向于0，尤其是在初始化的步骤和当衰减率很小的时候（例如$β_1$和$β_2$趋向于1）。
+
+通过计算偏差校正的一阶矩和二阶矩估计来抵消偏差：
+$$
+\begin{align} 
+\begin{split} 
+\hat{m}_t &= \dfrac{m_t}{1 - \beta^t_1} \\ 
+\hat{v}_t &= \dfrac{v_t}{1 - \beta^t_2} \end{split} 
+\end{align}
+$$
+正如我们在Adadelta和RMSprop中看到的那样，他们利用上述的公式更新参数，由此生成了Adam的更新规则：
+$$
+\theta_{t+1} = \theta_{t} - \dfrac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \hat{m}_t
+$$
+作者建议$β_1$取默认值为0.9，$β_2$为0.999，$ϵ$为10−8。他们从经验上表明Adam在实际中表现很好，同时，与其他的自适应学习算法相比，其更有优势。
+
