@@ -666,3 +666,29 @@ trick有五个方面：model architecture, data augmentation, loss function, lea
 自己使用：ResNet-50-D
 ```
 
+
+
+**data augmentation**
+
+```
+mixup对模型提升较大。
+data augmentation对模型效果影响蛮大的，不说mixup，单说resize的范围就能对模型效果有着不小的影响，有时候好好调调data augmentation里的参数，带来的效果提升比对网络结构的改进要还要大。数据和模型是一个硬币的两面，虽然改进数据没有改进模型听起来高大上，而且也更脏，但是我认为对数据的理解才是一个算法工程师的核心竞争力。
+```
+
+
+
+**loss function**
+
+```
+label smoothing对模型效果影响
+```
+
+
+
+**optimization**
+
+```
+optimization涉及到lr warmup、zero γ、no bias decay、cosine decay。lr warmup和zero γ比较重要。
+cosine learning rate decay中对模型效果影响
+```
+
