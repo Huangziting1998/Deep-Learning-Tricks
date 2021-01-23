@@ -534,9 +534,9 @@ Loss设计：使用了Focal Loss和CrossEntropy Loss联合训练的方案，避�
 
 ## 长尾分布Tricks
 
-
-
 Bag of Tricks for Long-Tailed Visual Recognition with Deep Convolutional Neural Networks
+
+https://mp.weixin.qq.com/s/JC7h6x0PczfLDkV9zX_1HQ
 
 
 
@@ -638,5 +638,31 @@ Balanced fine-tuning after imbalanced training 在不添加任何re-weighting和
 DRS+CAM-based balance-sampling是最佳two-stage training组合。同时也可以看到：CS_CE与CAM-BS的组合并不会得到性能的提升，反而造成了性能下降。当与其他最佳技巧组合时，相比manifold mixup，input mixup可以取得更好的性能提升。
 
 最佳的“技巧大礼包”为：input mixup + DRS+CAM-BS + fine-tuning，作者将其称之为“bag of tricks”。
+```
+
+
+
+
+
+## Bag of Tricks for CNNs
+
+Bag of Tricks for Image Classification with Convolutional Neural Networks
+
+https://zhuanlan.zhihu.com/p/51870052
+
+
+
+trick有五个方面：model architecture, data augmentation, loss function, learning rate schedule，optimization。总结一句话就是，**网络input stem和downsample模块、mixup、label smoothing、cosine learning rate decay、lr warmup、zero γ对网络影响都不小**。
+
+
+
+**model architecture**
+
+```
+主要讨论ResNet-50结构的一些微调，包括input stem和downsample module的细微改变。
+
+这些小修改对计算量的影响很小，但是对最后的accuracy提升效果不小。
+
+自己使用：ResNet-50-D
 ```
 
