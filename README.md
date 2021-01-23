@@ -527,3 +527,116 @@ Loss设计：使用了Focal Loss和CrossEntropy Loss联合训练的方案，避�
 
 
 **自动学习数据集的锚定框**
+
+
+
+
+
+## 长尾分布Tricks
+
+
+
+Bag of Tricks for Long-Tailed Visual Recognition with Deep Convolutional Neural Networks
+
+
+
+**Backbones** 
+
+```
+1.采用ResNet作为骨干网络；
+2.Data augmentation：在训练过程中，采用scale进行增广到256，然后随机crop得到224x224的图像，最后进行标准化；在验证结果，短边resize到256，然后进行CenterCrop，最后进行标准化；
+3.Training Detail  所有的骨干网络从头开始训练，采用kaiming初始化。对于iNaturalist2018和ImageNet-LT，batch=512，合计训练90epoch，初始学习率为0.2，在30、60、80epoch时衰减0.1，优化器为SGD(momentum=0.9, weight_decay=0.0001). 
+
+```
+
+
+
+**Trick gallery**
+
+```
+长尾相关的“技巧”划分为四大类：
+	(1)re-weighting;
+	(2)re-sampling;
+	(3)mixup training;
+	(4)two-stage training；
+	当与re-sampling相结合时，mixup training可以在长尾识别任务中得到好的识别精度，针对two-stage training提供了一种简单而有效的数据增广方案，它在CAM（(Class Activation Maps)）的基础上得到，故将其与re-sampling称之为“CAM-based sampling”
+```
+
+
+
+**Re-weighting methods**
+
+```
+代价敏感重加权方法是长尾研究中常用方案之一，通过对不同的类别赋予不同的权重，这类方案将引导网络对于数目较少的类别添加更多的关注。
+
+Existing re-weighting methods：
+	1.Cost-sensitive softmax cross-entropy loss(CS-CE)
+	2.Focal loss
+	3.Class-balanced loss
+
+结论：当类别数提升不平衡进一步加剧时，直接在训练阶段实施re-weighting并非合理的选择。
+```
+
+
+
+**Re-sampling methods**
+
+```
+re-sampling同样是长尾研究中常用的一种方法，它尝试对数据进行重采样使其达到均匀分布。
+Existing re-sampling methods：
+	1.Random over-sampling 是一种极具代表性的re-sampling方法，它对数量较少的类别通过复制的方式进行采样。这种方案简单有效，但可能导致过拟合;
+	2.Random under-sampling 随机移除了数量较多的类别中的部分数据直到所有类别数变得均衡。已有研究表明：在某些情况下，欠采样比过采样更可取;
+	3.Class-balanced sampling 使得每个类别具有相同的概率被选择。该方法先均匀的进行类别采样，然后再进行样本的均匀采样;
+	4.Square-root sampling;
+	5.Progressively-balanced sampling 提出渐进的改变类别采样概率，即从类别不平衡采样到类别平衡采样的渐进式过渡。此时的采样公式定义与epoch相关;
+	
+结论：直接在训练过程中实施re-sampling可以得到性能的轻微提升。
+```
+
+
+
+**Mixup training**
+
+```
+mixup training可以视作一种数据增光“技巧”，它旨在对CNN进行正则化。作者发现：当与re-sampling相结合时，mixup training在长尾识别任务中可以取得非常好的结果。
+
+Existing mixup-training methods：
+	1.Input mixup 已被证实是一种有效缓解对抗扰动的方法;
+	2.Manifold mixup 通过利用语义插值作为额外的训练监督信息，可以促使神经网络在hidden representation插值方面输出更低置信度;
+	
+
+结论：相比baseling，mixup与manifold mixup均可取得更好的性能；当alpha=1，mixup位于池化层之后时，input mixup与manifold mixup取得了同等的性能;Fine-tuning after mixup training 已有研究表明：如果移除最优几个epoch的mixup，通过mixup训练的模型可以取得性能的进一步提升;input mixup后接微调可以更好的性能提升；而manifold mixup方案后接微调性能反而变差。
+```
+
+
+
+**Two-stage training procedures**
+
+```
+该方案包含类别不平衡训练与类别平衡微调两个阶段，作者主要针对类别平衡微调进行了探索。
+
+Balanced fine-tuning after imbalanced training 在不添加任何re-weighting和re-sampling数据上训练的CNN可以学习更好的特征表达，但在尾部类别上存在识别精度差的问题。已有不少方法提出了类别平衡微调的优化方案，包含基于re-sampling(DRS)与基于re-weighting(DRW)的re-balancing：
+	1.DRS 采用常规方式进行训练，然后采用re-sampling方式进行类别平衡微调；
+	2.DRW 采用常规方式进行训练，然后采用re-weighting方式进行类别平衡微调；
+	
+现有的DRS方案中的re-sampling方法仅仅通过复制/移除的方式进行样本选择以期达到类别平衡的目的(这种方式的性能提升有限)，为生成根据判别性的信息，作者提出了一种基于CAM的采样方案用于DRS，所提方法可以取得显著的性能提升。我们首先采用re-sampling方式得到类别平衡图像；然后对于每个采样图像，采用前一阶段训练的模型基于其标签生成CAM，基于CAM的均值进行前景与背景分离；最后对前景进行变换(包含随机水平镜像、平移、旋转、缩放等)而保持背景不变。注：所提方案可以与常见的采样方案相结合使用。
+
+结论：
+	1.相比直接使用re-sampling，在DRS中re-sampling可以取得更好的性能；
+	2.所提CAM-based sampling 可以取得一致性的性能提升；
+	3.在所有CAM-based方案中，CAM-based balance-sampling取得最佳结果；
+	4.Image-Trans balance-sampling方案证实了CAM-based balance sampling的有效性；
+	5.相比直接实施re-weighting，re-weighting与DRW的组合可以取得更好的结果；
+	6.DRW与CS_CE的组合取得了最佳的结果；
+```
+
+
+
+**Trick combinations**
+
+```
+DRS+CAM-based balance-sampling是最佳two-stage training组合。同时也可以看到：CS_CE与CAM-BS的组合并不会得到性能的提升，反而造成了性能下降。当与其他最佳技巧组合时，相比manifold mixup，input mixup可以取得更好的性能提升。
+
+最佳的“技巧大礼包”为：input mixup + DRS+CAM-BS + fine-tuning，作者将其称之为“bag of tricks”。
+```
+
