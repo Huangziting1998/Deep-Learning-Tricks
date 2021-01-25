@@ -4,7 +4,7 @@
 
 ------
 
-- [ ] **GoogleNet(Inception):** Going deeper with convolutionshttps://arxiv.org/pdf/1409.4842.pdf
+- [x] **GoogleNet(Inception):** Going deeper with convolutionshttps://arxiv.org/pdf/1409.4842.pdf
 
 ------
 
@@ -14,7 +14,7 @@
 
 ------
 
-- [x] **YOLO v1**: You Only Look Once: Unified, Real-Time Object Detection
+- [ ] **YOLO v1**: You Only Look Once: Unified, Real-Time Object Detection
 
 
 
@@ -60,7 +60,7 @@
 
 ------
 
-- [ ] **CornerNet**: Detecting Objects as Paired Keypoints:https://arxiv.org/abs/1808.01244
+- [x] **CornerNet**: Detecting Objects as Paired Keypoints:https://arxiv.org/abs/1808.01244
 
 https://zhuanlan.zhihu.com/p/195517472
 
