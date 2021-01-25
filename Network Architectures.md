@@ -121,9 +121,22 @@ Searching for **MobileNetV3**
 
 **U2-Net:** Going deeper with nested U-structure for salient object detection
 
+**BBN**: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition
+
+**Deformable DETR**: Deformable Transformers for End-to-End Object Detection
+
+**EfficientDet**: Scalable and Efficient Object Detection
+
+**D2Det**: Towards High Quality Object Detection and Instance Segmentation
+
+**MCUNet**: Tiny Deep Learning on IoT Devices
+
+**GhostNet**: More Features from Cheap Operations
+
 
 
 ### 2021
 
 ------
 
+**R3Det**: Refined Single-Stage Detector with Feature Refinement for Rotating Object
