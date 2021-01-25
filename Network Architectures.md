@@ -4,7 +4,11 @@
 
 ------
 
-- [x] **GoogleNet(Inception):** Going deeper with convolutionshttps://arxiv.org/pdf/1409.4842.pdf
+- [x] **GoogleNet(Inception):** Going deeper with convolutions
+
+  https://arxiv.org/pdf/1409.4842.pdf
+
+  
 
 ------
 
@@ -60,11 +64,11 @@
 
 ------
 
-- [x] **CornerNet**: Detecting Objects as Paired Keypoints:https://arxiv.org/abs/1808.01244
+- [x] **CornerNet**: Detecting Objects as Paired Keypoints
 
-https://zhuanlan.zhihu.com/p/195517472
+  https://arxiv.org/abs/1808.01244
 
-
+  https://zhuanlan.zhihu.com/p/195517472
 
 - [ ] **MobileNetV2**: Inverted Residuals and Linear Bottlenecks
 
