@@ -4,7 +4,7 @@
 
 ------
 
-✅**GoogleNet(Inception):** Going deeper with convolutionshttps://arxiv.org/pdf/1409.4842.pdf
+- [ ] **GoogleNet(Inception):** Going deeper with convolutionshttps://arxiv.org/pdf/1409.4842.pdf
 
 ------
 
@@ -14,7 +14,7 @@
 
 ------
 
-**YOLO v1**: You Only Look Once: Unified, Real-Time Object Detection
+- [x] **YOLO v1**: You Only Look Once: Unified, Real-Time Object Detection
 
 
 
@@ -22,13 +22,13 @@
 
 ------
 
-**SqueezeNet** : AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size
+- [ ] **SqueezeNet** : AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size
 
-**Faster RCNN**: Towards Real-Time Object Detection with Region Proposal Networks
+- [ ] **Faster RCNN**: Towards Real-Time Object Detection with Region Proposal Networks
 
-**YOLO v2**: YOLO9000: Better, Faster, Stronger
+- [ ] **YOLO v2**: YOLO9000: Better, Faster, Stronger
 
-**ResNet**: Deep Residual Learning for Image Recognition
+- [ ] **ResNet**: Deep Residual Learning for Image Recognition
 
 
 
@@ -36,23 +36,23 @@
 
 ------
 
-**Deformable ConvNet v1:** Deformable Convolutional Networks
+- [ ] **Deformable ConvNet v1:** Deformable Convolutional Networks
 
-**RetinaNet**: Focal Loss for Dense Object Detection
+- [ ] **RetinaNet**: Focal Loss for Dense Object Detection
 
-**SENet**: Squeeze-and-Excitation Networks
+- [ ] **SENet**: Squeeze-and-Excitation Networks
 
-**ShuffleNet**: An Extremely Efficient Convolutional Neural Network for Mobile Devices 
+- [ ] **ShuffleNet**: An Extremely Efficient Convolutional Neural Network for Mobile Devices 
 
-**RexNeXt**: Aggregated Residual Transformations for Deep Neural Networks
+- [ ] **RexNeXt**: Aggregated Residual Transformations for Deep Neural Networks
 
-**WideResNet**: Wide Residual Networks
+- [ ] **WideResNet**: Wide Residual Networks
 
-**Mask R-CNN**
+- [ ] **Mask R-CNN**
 
-**DenseNet**: Densely Connected Convolutional Networks
+- [ ] **DenseNet**: Densely Connected Convolutional Networks
 
-**MobileNets**: Efficient Convolutional Neural Networks for Mobile Vision Applications
+- [ ] **MobileNets**: Efficient Convolutional Neural Networks for Mobile Vision Applications
 
 
 
@@ -60,24 +60,23 @@
 
 ------
 
-
-✅**CornerNet**: Detecting Objects as Paired Keypoints:https://arxiv.org/abs/1808.01244
+- [ ] **CornerNet**: Detecting Objects as Paired Keypoints:https://arxiv.org/abs/1808.01244
 
 https://zhuanlan.zhihu.com/p/195517472
 
 
 
-**MobileNetV2**: Inverted Residuals and Linear Bottlenecks
+- [ ] **MobileNetV2**: Inverted Residuals and Linear Bottlenecks
 
-**SqueezeNext:** Hardware-Aware Neural Network Design
+- [ ] **SqueezeNext:** Hardware-Aware Neural Network Design
 
-**ShuffleNet v2:** Practical Guidelines for Efficient CNN Architecture Design
+- [ ] **ShuffleNet v2:** Practical Guidelines for Efficient CNN Architecture Design
 
-**PANet**: Path Aggregation Network for Instance Segmentation
+- [ ] **PANet**: Path Aggregation Network for Instance Segmentation
 
-**Shift:** A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions
+- [ ] **Shift:** A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions
 
-**YOLO v3** : An Incremental Improvement
+- [ ] **YOLO v3** : An Incremental Improvement
 
 
 
@@ -85,23 +84,23 @@ https://zhuanlan.zhihu.com/p/195517472
 
 ------
 
-**Deformable ConvNet v2:** More Deformable, Better Results
+- [ ] **Deformable ConvNet v2:** More Deformable, Better Results
 
-**ACNet:** Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks
+- [ ] **ACNet:** Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks
 
-**ThunderNet:** Towards Real-time Generic Object Detection
+- [ ] **ThunderNet:** Towards Real-time Generic Object Detection
 
-**SKNet**: Selective Kernel Networks
+- [ ] **SKNet**: Selective Kernel Networks
 
-**Res2Net:** A New Multi-scale Backbone Architecture
+- [ ] **Res2Net:** A New Multi-scale Backbone Architecture
 
-**CenterNet:** Objects as Points
+- [ ] **CenterNet:** Objects as Points
 
-**EfficientNet**: Rethinking Model Scaling for Convolutional Neural Networks
+- [ ] **EfficientNet**: Rethinking Model Scaling for Convolutional Neural Networks
 
-Searching for **MobileNetV3**
+- [ ] Searching for **MobileNetV3**
 
-**RepPoints**: Point Set Representation for Object Detection
+- [ ] **RepPoints**: Point Set Representation for Object Detection
 
 
 
@@ -109,29 +108,29 @@ Searching for **MobileNetV3**
 
 ------
 
-**DETR**: End-to-End Object Detection with Transformers
+- [ ] **DETR**: End-to-End Object Detection with Transformers
 
-**RepPoints v2:** Verification Meets Regression for Object Detection
+- [ ] **RepPoints v2:** Verification Meets Regression for Object Detection
 
-**ResNest**:Split-Attention Networks
+- [ ] **ResNest**:Split-Attention Networks
 
-**YOLO v4:** Optimal Speed and Accuracy of Object Detection
+- [ ] **YOLO v4:** Optimal Speed and Accuracy of Object Detection
 
-**CSPNet:** A New Backbone that can Enhance Learning Capability of CNN 
+- [ ] **CSPNet:** A New Backbone that can Enhance Learning Capability of CNN 
 
-**U2-Net:** Going deeper with nested U-structure for salient object detection
+- [ ] **U2-Net:** Going deeper with nested U-structure for salient object detection
 
-**BBN**: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition
+- [ ] **BBN**: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition
 
-**Deformable DETR**: Deformable Transformers for End-to-End Object Detection
+- [ ] **Deformable DETR**: Deformable Transformers for End-to-End Object Detection
 
-**EfficientDet**: Scalable and Efficient Object Detection
+- [ ] **EfficientDet**: Scalable and Efficient Object Detection
 
-**D2Det**: Towards High Quality Object Detection and Instance Segmentation
+- [ ] **D2Det**: Towards High Quality Object Detection and Instance Segmentation
 
-**MCUNet**: Tiny Deep Learning on IoT Devices
+- [ ] **MCUNet**: Tiny Deep Learning on IoT Devices
 
-**GhostNet**: More Features from Cheap Operations
+- [ ] **GhostNet**: More Features from Cheap Operations
 
 
 
@@ -139,4 +138,5 @@ Searching for **MobileNetV3**
 
 ------
 
-**R3Det**: Refined Single-Stage Detector with Feature Refinement for Rotating Object
+- [ ] **R3Det**: Refined Single-Stage Detector with Feature Refinement for Rotating Object
+
