@@ -126,7 +126,9 @@
 
 - [ ] **CSPNet:** A New Backbone that can Enhance Learning Capability of CNN 
 
-- [ ] **U2-Net:** Going deeper with nested U-structure for salient object detection
+- [x] **U2-Net:** Going deeper with nested U-structure for salient object detection
+
+  https://arxiv.org/pdf/2005.09007.pdf
 
 - [ ] **BBN**: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition
 
