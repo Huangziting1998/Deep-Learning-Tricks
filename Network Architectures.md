@@ -18,17 +18,21 @@
 
 ------
 
-- [x] **YOLO v1**: You Only Look Once: Unified, Real-Time Object Detection
-
-  https://arxiv.org/abs/1506.02640
-
-  https://zhuanlan.zhihu.com/p/70387154
+- [ ] 
 
 
 
 ### 2016
 
 ------
+
+- [x] **YOLO v1**: You Only Look Once: Unified, Real-Time Object Detection
+
+  https://arxiv.org/abs/1506.02640
+
+  https://zhuanlan.zhihu.com/p/70387154
+
+  
 
 - [ ] **SqueezeNet** : AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size
 
