@@ -42,12 +42,16 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] **SqueezeNet** : AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size
+- [x] **SqueezeNet** : AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size
+
+  https://zhuanlan.zhihu.com/p/49465950
+
+  https://arxiv.org/abs/1602.07360
+
+  
 
 - [ ] **Faster RCNN**: Towards Real-Time Object Detection with Region Proposal Networks
-
 - [ ] **YOLO v2**: YOLO9000: Better, Faster, Stronger
-
 - [ ] **ResNet**: Deep Residual Learning for Image Recognition
 
 
