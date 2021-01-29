@@ -26,5 +26,7 @@ Notability笔记：https://www.jianguoyun.com/p/DVXYB-YQwZH2CBjXkt0D（访问密
 
 
 
+- [x] U-Net中的重叠-切片(Overlap-tile)
 
+  https://zhuanlan.zhihu.com/p/281404684
 
