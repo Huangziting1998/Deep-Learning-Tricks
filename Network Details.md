@@ -60,7 +60,7 @@ https://www.zhihu.com/column/c_1316816403623084032
 
   https://zhuanlan.zhihu.com/p/321449610
 
-- [ ]  BN & SyncBN
+- [x]  BN & SyncBN
 
   https://zhuanlan.zhihu.com/p/337732517
 
