@@ -30,3 +30,34 @@ Notability笔记：https://www.jianguoyun.com/p/DVXYB-YQwZH2CBjXkt0D（访问密
 
   https://zhuanlan.zhihu.com/p/281404684
 
+
+
+
+
+
+
+### PyTorch 源码解读
+
+https://www.zhihu.com/column/c_1316816403623084032
+
+
+
+- [ ] torch.autograd
+
+  https://zhuanlan.zhihu.com/p/321449610
+
+- [ ]  BN & SyncBN
+
+  https://zhuanlan.zhihu.com/p/337732517
+
+- [ ]  torch.utils.data
+
+  https://zhuanlan.zhihu.com/p/337850513
+
+- [ ] nn.Module
+
+  https://zhuanlan.zhihu.com/p/340453841
+
+- [ ] DP & DDP
+
+  https://zhuanlan.zhihu.com/p/343951042
