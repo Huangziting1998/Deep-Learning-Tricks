@@ -1,3 +1,5 @@
+------
+
 
 
 ```
@@ -6,17 +8,21 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 
 
-### 2014
-
 ------
+
+
+
+### 2014
 
 - [x] **GoogleNet(Inception):** Going deeper with convolutions
 
   https://arxiv.org/pdf/1409.4842.pdf
 
   https://zhuanlan.zhihu.com/p/32702031
-  
-  
+
+- [ ] 
+
+
 
 ------
 
@@ -24,15 +30,15 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 ### 2015
 
-------
-
 - [ ] 
 
 
 
-### 2016
-
 ------
+
+
+
+### 2016
 
 - [x] **YOLO v1**: You Only Look Once: Unified, Real-Time Object Detection
 
@@ -51,14 +57,18 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
   
 
 - [ ] **Faster RCNN**: Towards Real-Time Object Detection with Region Proposal Networks
+
 - [ ] **YOLO v2**: YOLO9000: Better, Faster, Stronger
+
 - [ ] **ResNet**: Deep Residual Learning for Image Recognition
 
 
 
-### 2017
-
 ------
+
+
+
+### 2017
 
 - [ ] **Deformable ConvNet v1:** Deformable Convolutional Networks
 
@@ -78,11 +88,11 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **MobileNets**: Efficient Convolutional Neural Networks for Mobile Vision Applications
 
+------
+
 
 
 ### 2018
-
-------
 
 - [x] **CornerNet**: Detecting Objects as Paired Keypoints
 
@@ -104,11 +114,11 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **YOLO v3** : An Incremental Improvement
 
+------
+
 
 
 ### 2019
-
-------
 
 - [ ] **Deformable ConvNet v2:** More Deformable, Better Results
 
@@ -128,11 +138,11 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **RepPoints**: Point Set Representation for Object Detection
 
+------
+
 
 
 ### 2020
-
-------
 
 - [ ] **DETR**: End-to-End Object Detection with Transformers
 
@@ -162,13 +172,14 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **GhostNet**: More Features from Cheap Operations
 
-- [ ] 
+------
 
 
 
 ### 2021
 
-------
-
 - [ ] **R3Det**: Refined Single-Stage Detector with Feature Refinement for Rotating Object
+- [ ] 
+
+------
 
