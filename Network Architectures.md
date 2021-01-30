@@ -162,11 +162,7 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **GhostNet**: More Features from Cheap Operations
 
-- [ ] **Sparse R-CNN**: End-to-End Object Detection with Learnable Proposals
-
-  https://arxiv.org/abs/2011.12450
-
-  https://zhuanlan.zhihu.com/p/310058362
+- [ ] 
 
 
 
