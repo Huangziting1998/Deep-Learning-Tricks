@@ -20,8 +20,6 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   https://zhuanlan.zhihu.com/p/32702031
 
-- [ ] 
-
 
 
 ------
@@ -88,6 +86,8 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **MobileNets**: Efficient Convolutional Neural Networks for Mobile Vision Applications
 
+  
+
 ------
 
 
@@ -114,6 +114,8 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **YOLO v3** : An Incremental Improvement
 
+  
+
 ------
 
 
@@ -137,6 +139,8 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 - [ ] Searching for **MobileNetV3**
 
 - [ ] **RepPoints**: Point Set Representation for Object Detection
+
+  
 
 ------
 
@@ -172,6 +176,8 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **GhostNet**: More Features from Cheap Operations
 
+  
+
 ------
 
 
@@ -179,7 +185,8 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 ### 2021
 
 - [ ] **R3Det**: Refined Single-Stage Detector with Feature Refinement for Rotating Object
-- [ ] 
+
+  
 
 ------
 
