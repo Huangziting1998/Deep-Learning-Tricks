@@ -4,6 +4,8 @@ Notability笔记：https://www.jianguoyun.com/p/DVXYB-YQwZH2CBjXkt0D（访问密
 
 
 
+### 细节补充
+
 - [x] An overview of gradient descent optimization algorithms
 
   https://ruder.io/optimizing-gradient-descent/index.html
