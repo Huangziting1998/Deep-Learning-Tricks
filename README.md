@@ -700,7 +700,7 @@ cosine learning rate decay中对模型效果影响
 
 
 
-UNet上采样得到的特征图尺寸与对应层在下采样时的尺寸不一致
+UNet上采样得到的特征图尺寸与对应层在下采样时的尺寸不一致：
 
 ![img](https://pic4.zhimg.com/80/v2-281f62cb715015109f03c6f70222b03f_1440w.jpg)
 
@@ -711,8 +711,6 @@ UNet上采样得到的特征图尺寸与对应层在下采样时的尺寸不一�
 
 2.将U-Net中的valid卷积改为same卷积，即使用padding，这样每次3x3卷积就不会改变特征图的尺寸了，最终上采样回来的尺寸就能够和输入一致了。但是，padding是会引入误差的，而且模型越深层得到的feature map抽象程度越高，受到padding的影响会呈累积效应;
 ```
-
-
 
 **Overlap-tile** 
 
