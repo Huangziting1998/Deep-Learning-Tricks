@@ -1,10 +1,20 @@
+------
+
+
+
 ```
 Notability笔记：https://www.jianguoyun.com/p/DVXYB-YQwZH2CBjXkt0D（访问密码：h05amy）
 ```
 
 
 
+------
+
+
+
 ### 细节补充
+
+
 
 - [x] An overview of gradient descent optimization algorithms
 
@@ -35,6 +45,8 @@ Notability笔记：https://www.jianguoyun.com/p/DVXYB-YQwZH2CBjXkt0D（访问密
 
 
 
+
+------
 
 
 
