@@ -56,7 +56,7 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **Faster RCNN**: Towards Real-Time Object Detection with Region Proposal Networks
 
-- [ ] **YOLO v2**: YOLO9000: Better, Faster, Stronger
+- [x] **YOLO v2**: YOLO9000: Better, Faster, Stronger
 
   https://zhuanlan.zhihu.com/p/74540100
 
