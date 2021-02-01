@@ -75,3 +75,19 @@ https://www.zhihu.com/column/c_1316816403623084032
 - [ ] DP & DDP
 
   https://zhuanlan.zhihu.com/p/343951042
+
+
+
+------
+
+
+
+### DEEP LEARNING WITH PYTORCH: A 60 MINUTE BLITZ
+
+https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learning-with-pytorch-a-60-minute-blitz
+
+
+
+- [ ] 60 分钟快速入门 PyTorch官方教程
+
+  https://zhuanlan.zhihu.com/p/66543791
