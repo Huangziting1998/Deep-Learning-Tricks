@@ -88,6 +88,6 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
 
 
 
-- [ ] 60 分钟快速入门 PyTorch官方教程
+- [x] 60 分钟快速入门 PyTorch官方教程
 
   https://zhuanlan.zhihu.com/p/66543791
