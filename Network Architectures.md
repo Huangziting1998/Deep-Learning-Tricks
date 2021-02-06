@@ -64,7 +64,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] **ResNet**: Deep Residual Learning for Image Recognition
+- [x] **ResNet**: Deep Residual Learning for Image Recognition
+
+  https://arxiv.org/abs/1512.03385
+
+  https://zhuanlan.zhihu.com/p/77794592
+
+  https://zhuanlan.zhihu.com/p/31852747
 
 
 
