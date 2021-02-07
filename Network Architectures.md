@@ -188,6 +188,8 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [x] **GhostNet**: More Features from Cheap Operations
 
+  https://arxiv.org/abs/1911.11907
+
 - [x] **GhostSR**: Learning Ghost Features for Efficient Image Super Resolution
 
   https://zhuanlan.zhihu.com/p/109325275
