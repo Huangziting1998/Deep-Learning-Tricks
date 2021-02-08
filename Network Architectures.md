@@ -192,12 +192,10 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   https://arxiv.org/abs/1911.11907
 
-- [x] **GhostSR**: Learning Ghost Features for Efficient Image Super Resolution
-
   https://zhuanlan.zhihu.com/p/109325275
 
   https://mp.weixin.qq.com/s/znibNmIO5Yjwm4hytAsPpg
-  
+
   
 
 ------
