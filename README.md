@@ -848,3 +848,75 @@ UNet上采样得到的特征图尺寸与对应层在下采样时的尺寸不一�
 **Overlap-tile** 
 
 在输入网络前对图像进行padding，使得最终的输出尺寸与原图一致。特别的是，这个padding是**镜像padding**，这样，在**预测边界区域的时候就提供了上下文信息**。这种策略可用于许多场景，特别是当 **数据量较少** 或者 **不适合对原图进行缩放时尤其适用**（缩放通常使用插值算法，主流的插值算法如双线性插值具有低通滤波的性质，会使得图像的高频分量受损，从而造成图像轮廓和边缘等细节损失，可能对模型学习有一定影响），同时它还能起到**为目标区域提供上下文信息**的作用。
+
+
+
+
+
+## Paper写作
+
+
+
+```
+Google Doc检查写作
+```
+
+
+
+**Introduction**
+
+```
+- Problem definition
+- Previous methods and their limits
+- 简单描述你是提出了什么技术来 overcome 上面的 limits
+- 一个图，非常 high-level 的解释前人工作的 limits 和你的工作怎么解决了这些 limits，最好让人 **30** 秒内完全看懂
+- 最后一段如今大都是，In summary, this paper makes three contributions: First work to 解决什么 limits；提出了什么 novel 的技术；outperform 了 state-of-the-art 多少
+```
+
+
+
+**Related Work**
+
+```
+一般三五个 subsection，分别 review 下相关的 topics，同样不光讲 previous work 做了啥，更要讲自己的方法跟前人工作有啥不同
+```
+
+
+
+**Method**
+
+```
+- 这是文章的主体，按照你觉得最容易让别人看懂的方式来讲
+- 可以第一个 subsection 是 overview，formulate 一下你的 problem 给出 notation，配一个整体 framework 的图，图里面的字体不能太大或者太小看不清，要有些细节，让人光看图就能明白你的方法是怎么回事，但不要过于复杂，让人在不超过 2 分钟的时间看完这张图
+- 然后几个 subsection 具体介绍你的方法或者模型；如果 testing 跟 training 不太一样，最后一个 subsection 介绍 inference 时候的不同，通常是一些 post-processing 操作
+```
+
+
+
+**Experiment**
+
+```
+- Datasets
+- Implementation details such as pre-processing process, training recipe
+- Evaluation metrics
+- Comparisons with state-of-the-art
+- Detailed analysis
+- Alternative design choice exploration
+- Ablation studies
+- Visualization examples
+```
+
+
+
+**Conclusion (and Future Work)**
+
+
+
+**Abstract**
+
+```
+是全文的精简版，建议在 paper 写完第一稿差不多成型了，有定下来的成熟的 storyline 了，再去写 abstract；大概就是用一两句话分别概括 paper 里面每个 section，然后串起来
+```
+
+
+
