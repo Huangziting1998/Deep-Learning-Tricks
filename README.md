@@ -920,3 +920,17 @@ Google Doc检查写作
 
 
 
+
+
+## 小目标检测
+
+
+
+**BMCV论文题目：Rethinking Convolutional Feature Extraction for Small Object Detection**
+
+
+
+前面我们介绍了使用数据扩增的方式提高小目标检测的性能，这种方法虽然会提升小目标检测的性能，但也会影响大目标检测的性能。
+
+作者对造成小目标检测和大目标检测之间巨大性能差异进行了实验分析，他的想法与之前一篇Augmentation for small object detection完全不同，他认为**影响小目标检测性能的主要原因是特征提取网络backbone将图片缩小过多倍而导致的结果**，同时还对小目标训练样本数量对小目标检测性能的影响进行了实验分析，得出了小目标训练样本数量对小目标检测性能影响较小。
+
