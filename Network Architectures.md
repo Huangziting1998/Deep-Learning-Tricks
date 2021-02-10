@@ -176,7 +176,11 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] **BBN**: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition
+- [x] **BBN**: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition
+
+  http://www.weixiushen.com/publication/cvpr20_BBN.pdf
+
+  
 
 - [ ] **Deformable DETR**: Deformable Transformers for End-to-End Object Detection
 
