@@ -869,8 +869,8 @@ Google Doc检查写作
 - Problem definition
 - Previous methods and their limits
 - 简单描述你是提出了什么技术来 overcome 上面的 limits
-- 一个图，非常 high-level 的解释前人工作的 limits 和你的工作怎么解决了这些 limits，最好让人 **30** 秒内完全看懂
-- 最后一段如今大都是，In summary, this paper makes three contributions: First work to 解决什么 limits；提出了什么 novel 的技术；outperform 了 state-of-the-art 多少
+- 一个图，非常 high-level 的解释前人工作的 limits 和你的工作怎么解决了这些 limits，最好让人30秒内完全看懂
+- 最后一段如今大都是：In summary, this paper makes three contributions: First work to 解决什么 limits；提出了什么 novel 的技术；outperform 了 state-of-the-art 多少
 ```
 
 
@@ -878,7 +878,7 @@ Google Doc检查写作
 **Related Work**
 
 ```
-一般三五个 subsection，分别 review 下相关的 topics，同样不光讲 previous work 做了啥，更要讲自己的方法跟前人工作有啥不同
+一般三五个 subsection，分别 review 下相关的 topics，同样不光讲 previous work 做了什么，更要讲自己的方法跟前人工作有啥不同
 ```
 
 
@@ -915,7 +915,7 @@ Google Doc检查写作
 **Abstract**
 
 ```
-是全文的精简版，建议在 paper 写完第一稿差不多成型了，有定下来的成熟的 storyline 了，再去写 abstract；大概就是用一两句话分别概括 paper 里面每个 section，然后串起来
+是全文的精简，建议在 paper 写完第一稿差不多成型了，有定下来的成熟的 storyline 了，再去写 abstract；大概就是用一两句话分别概括 paper 里面每个 section，然后串起来
 ```
 
 
