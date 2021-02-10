@@ -926,9 +926,9 @@ Google Doc检查写作
 
 
 
-**BMCV论文题目：Rethinking Convolutional Feature Extraction for Small Object Detection**
-
-
+```
+BMCV论文题目：Rethinking Convolutional Feature Extraction for Small Object Detection
+```
 
 前面我们介绍了使用数据扩增的方式提高小目标检测的性能，这种方法虽然会提升小目标检测的性能，但也会影响大目标检测的性能。
 
