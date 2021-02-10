@@ -944,3 +944,11 @@ Strided Convolution和Pooling一直以来被认为是backbone必不可少的一�
 
 **在早期进行消除stride操作对于小目标的提升更加有效，并且采用将大目标和小目标进行共享权重的双路径方法可以缓解大目标的性能的下降，但是还是会有一定下降。**
 
+
+
+
+
+```
+论文题目：Augmentation for small object detection
+```
+
