@@ -46,9 +46,9 @@ Notability笔记：https://www.jianguoyun.com/p/DVXYB-YQwZH2CBjXkt0D（访问密
   
 - [x] 深度学习中的注意力机制（上）
 
-- [x] 深度学习中的注意力机制（下）
-
   https://mp.weixin.qq.com/s/GSe5gobptLUWZykR73Ibtw
+
+- [x] 深度学习中的注意力机制（下）
 
   https://mp.weixin.qq.com/s/K9p26LbD5ClkNwVl3GcETA
 
