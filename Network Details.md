@@ -98,6 +98,42 @@ https://www.zhihu.com/column/c_1316816403623084032
 
 
 
+
+
+------
+
+
+
+### 电子书
+
+
+
+- [ ] 动手学习深度学习（PyTorch）
+
+  
+
+- [x] Neural Networks and Deep Learning
+
+  
+
+- [x] Machine Learning Yearning
+
+  
+
+- [ ] Sklearn, Keras&TensorFlow机器学习实用指南（2nd Edition）
+
+  
+
+- [ ] 利用Python进行数据分析
+
+  
+
+- [ ] 
+
+
+
+
+
 ------
 
 
