@@ -43,6 +43,8 @@
 ## 工程调参
 
 ```
+DenseNet训练样本比较少的情况下收敛的比ResNet更好 -> Dense Connections
+
 3x3 conv是CNN主流组件（3x3Conv有利于保持图像性质）；
 
 卷积核权重初始化使用xavier（Tanh）或者He normal（ReLU，PyTorch默认） ；
