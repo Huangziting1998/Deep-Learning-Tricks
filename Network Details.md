@@ -128,6 +128,12 @@ https://www.zhihu.com/column/c_1316816403623084032
 
   
 
+- [ ] NYU_DeepLearning
+
+  https://atcold.github.io/pytorch-Deep-Learning/zh/
+
+  
+
 - [ ] 
 
 
