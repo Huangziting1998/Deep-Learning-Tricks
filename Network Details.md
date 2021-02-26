@@ -134,6 +134,12 @@ https://www.zhihu.com/column/c_1316816403623084032
 
   
 
+- [ ] PyCharm 中文指南
+
+  http://pycharm.iswbm.com/zh_CN/latest/#pycharm
+
+
+
 - [ ] 
 
 
