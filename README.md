@@ -2,6 +2,8 @@
 
 ## 模型
 
+
+
 ```
 （1）模型自身结构 -> 模型的表达能力
 
@@ -53,38 +55,29 @@ Batch Normalization或者Group Normalization；
 
 使用ACNet的卷积方式；
 
-cv2要比os读取图片速度快
+cv2要比os读取图片速度快；
 
-加速训练pin_memory=true,work_numbers=4(卡的数量x4)，data.to(device,  no_blocking=True)
+加速训练pin_memory=true,work_numbers=x(卡的数量x4)，data.to(device,  no_blocking=True);
 
-学习率和动量：使用较大的学习率+大的动量可以加快模型的训练且快速收敛
+在显存大小固定情况下num_workers和batchsize是反比例关系;
 
-Adam learning rate： 3e-4
+Adam learning rate： 3e-4;
 
-L2正则化：L2千万不要调太大，不然特别难训练；L2也不能太小，不然过拟合严重；即使正确地使用正则化强度，也会导致验证集前期不稳定甚至呈现训练不到的现象，但是之后就会稳定下来
+L2正则化：L2千万不要调太大，不然特别难训练；L2也不能太小，不然过拟合严重；即使正确地使用正则化强度，也会导致验证集前期不稳定甚至呈现训练不到的现象，但是之后就会稳定下来;
 
 优化器+学习率策略+momentum：
 
-	1.SGD+momentum在大学习率+大动量的时候效果更好
+	1.SGD+momentum在大学习率+大动量的时候效果更好;
 
-	2.不管是SGD还是Adam还是AdamW，学习率的调整都对他们有帮助
+	2.不管是SGD还是Adam还是AdamW，学习率的调整都对他们有帮助;
 
-	3.带有momentum的SGD加余弦退火收敛更快且更加稳定
+	3.带有momentum的SGD加余弦退火收敛更快且更加稳定;
 
-	4.学习率最好设定好下限，不然后期会训练不动
-
-
-把数据放内存里，降低 io 延迟
-
-sudo mount tmpfs /path/to/your/data -t tmpfs -o size=30G
+	4.学习率最好设定好下限，不然后期会训练不动;
 
 
-动态查看GPU利用率
+动态查看GPU利用率: watch -n 1 nvidia-smi;
 
-watch -n 1 nvidia-smi
-
-
-在显存大小固定情况下num_workers和batchsize是反比例关系
 ```
 
 
