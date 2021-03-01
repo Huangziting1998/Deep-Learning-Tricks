@@ -16,7 +16,7 @@ Notability笔记：https://www.jianguoyun.com/p/DVXYB-YQwZH2CBjXkt0D（访问密
 
 
 
-- [x] An overview of gradient descent optimization algorithms
+- [x] An overview of gradient descent optimization algorithms
 
   https://ruder.io/optimizing-gradient-descent/index.html
 
@@ -156,6 +156,6 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
 
 
 
-- [x] 60 分钟快速入门 PyTorch官方教程
+- [x] 60 分钟快速入门 PyTorch官方教程
 
   https://zhuanlan.zhihu.com/p/66543791
