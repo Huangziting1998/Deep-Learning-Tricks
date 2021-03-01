@@ -220,10 +220,6 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-  
-
-  
-
 ------
 
 
@@ -235,9 +231,9 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 - [ ] **RepVGG**: Making VGG-style ConvNets Great Again
 
   https://arxiv.org/pdf/2101.03697.pdf
-  
-  https://zhuanlan.zhihu.com/p/344324470
-  
+
+  https://mp.weixin.qq.com/s/cQsfQ5Ea0utOAp3haig4Gw
+
   
 
 - [ ] 
