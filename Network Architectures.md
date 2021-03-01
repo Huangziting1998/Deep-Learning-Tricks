@@ -204,6 +204,24 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
+- [ ] EfficientDet: Scalable and Efficient Object Detection
+
+  https://arxiv.org/pdf/1911.09070.pdf
+
+  
+
+- [ ] 
+
+  
+
+  
+
+  
+
+  
+
+  
+
 ------
 
 
