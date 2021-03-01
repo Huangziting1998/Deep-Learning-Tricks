@@ -230,7 +230,7 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 ### 2021
 
-- [ ] **R3Det**: Refined Single-Stage Detector with Feature Refinement for Rotating Object
+- [ ] **R3Det**: Refined Single-Stage Detector with Feature Refinement for Rotating Object
 
   
 
