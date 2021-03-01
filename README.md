@@ -792,7 +792,7 @@ Loss设计：使用了Focal Loss和CrossEntropy Loss联合训练的方案，避�
 
 
 
-**6、知识蒸馏**
+**知识蒸馏**
 
 加上知识蒸馏，可以使我们的模型精度提升约1%：
 
@@ -803,7 +803,7 @@ Loss设计：使用了Focal Loss和CrossEntropy Loss联合训练的方案，避�
 
 
 
-**7、Ensemble**
+**Ensemble**
 
 通过选取不同版本的数据集，以及以上不同的数据增强、数据均衡、蒸馏方法和模型结构，训练多个模型。
 
