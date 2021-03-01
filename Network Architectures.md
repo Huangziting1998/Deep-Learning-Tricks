@@ -232,7 +232,15 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **R3Det**: Refined Single-Stage Detector with Feature Refinement for Rotating Object
 
+- [ ] **RepVGG**: Making VGG-style ConvNets Great Again
+
+  https://arxiv.org/pdf/2101.03697.pdf
   
+  https://zhuanlan.zhihu.com/p/344324470
+  
+  
+
+- [ ] 
 
 ------
 

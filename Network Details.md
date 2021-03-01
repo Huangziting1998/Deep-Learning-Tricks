@@ -159,3 +159,14 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
 - [x] 60 分钟快速入门 PyTorch官方教程
 
   https://zhuanlan.zhihu.com/p/66543791
+
+
+
+
+
+------
+
+
+
+工业金属平面材料表面缺陷检测的研究进展：https://mp.weixin.qq.com/s/VoI6QoOh9FDMZUwX2NzaUg
+
