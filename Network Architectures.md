@@ -148,6 +148,10 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **EfficientNet**: Rethinking Model Scaling for Convolutional Neural Networks
 
+  https://arxiv.org/pdf/1905.11946.pdf
+
+  
+
 - [ ] Searching for **MobileNetV3**
 
 - [ ] **RepPoints**: Point Set Representation for Object Detection
@@ -188,6 +192,10 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **EfficientDet**: Scalable and Efficient Object Detection
 
+  https://arxiv.org/pdf/1911.09070.pdf
+
+  
+
 - [ ] **D2Det**: Towards High Quality Object Detection and Instance Segmentation
 
 - [ ] **MCUNet**: Tiny Deep Learning on IoT Devices
@@ -201,12 +209,6 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
   https://zhuanlan.zhihu.com/p/109325275
 
   https://mp.weixin.qq.com/s/znibNmIO5Yjwm4hytAsPpg
-
-  
-
-- [ ] EfficientDet: Scalable and Efficient Object Detection
-
-  https://arxiv.org/pdf/1911.09070.pdf
 
   
 
