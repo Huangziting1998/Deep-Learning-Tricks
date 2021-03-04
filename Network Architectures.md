@@ -124,8 +124,14 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **Shift:** A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions
 
-- [ ] **YOLO v3** : An Incremental Improvement
+- [x] **YOLO v3** : An Incremental Improvement
 
+  https://arxiv.org/pdf/1804.02767.pdf
+  
+  https://zhuanlan.zhihu.com/p/143747206
+  
+  https://zhuanlan.zhihu.com/p/76802514
+  
   
 
 ------
@@ -171,6 +177,8 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 - [ ] **ResNest**:Split-Attention Networks
 
 - [ ] **YOLO v4:** Optimal Speed and Accuracy of Object Detection
+
+  https://zhuanlan.zhihu.com/p/143747206
 
 - [ ] **CSPNet:** A New Backbone that can Enhance Learning Capability of CNN 
 
@@ -228,7 +236,7 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **R3Det**: Refined Single-Stage Detector with Feature Refinement for Rotating Object
 
-- [ ] **RepVGG**: Making VGG-style ConvNets Great Again
+- [x] **RepVGG**: Making VGG-style ConvNets Great Again
 
   https://arxiv.org/pdf/2101.03697.pdf
 
