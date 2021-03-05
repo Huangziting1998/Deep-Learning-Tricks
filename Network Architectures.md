@@ -54,9 +54,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] **Faster RCNN**: Towards Real-Time Object Detection with Region Proposal Networks
+- [x] **Faster RCNN**: Towards Real-Time Object Detection with Region Proposal Networks
+
+  https://arxiv.org/pdf/1506.01497.pdf;
 
   https://zhuanlan.zhihu.com/p/31426458
+
+  https://zhuanlan.zhihu.com/p/145842317
 
   
 
@@ -88,7 +92,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **RetinaNet**: Focal Loss for Dense Object Detection
 
-- [ ] **SENet**: Squeeze-and-Excitation Networks
+- [x] **SENet**: Squeeze-and-Excitation Networks
+
+  https://arxiv.org/abs/1709.01507
+
+  https://zhuanlan.zhihu.com/p/65459972
+
+  
 
 - [ ] **ShuffleNet**: An Extremely Efficient Convolutional Neural Network for Mobile Devices 
 
@@ -150,7 +160,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **ThunderNet:** Towards Real-time Generic Object Detection
 
-- [ ] **SKNet**: Selective Kernel Networks
+- [x] **SKNet**: Selective Kernel Networks
+
+  https://arxiv.org/abs/1903.06586
+
+  https://zhuanlan.zhihu.com/p/59690223
+
+  
 
 - [ ] **Res2Net:** A New Multi-scale Backbone Architecture
 
