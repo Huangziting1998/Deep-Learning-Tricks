@@ -114,11 +114,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **ShuffleNet**: An Extremely Efficient Convolutional Neural Network for Mobile Devices 
 
-- [x] **ResNeXt**: Aggregated Residual Transformations for Deep Neural Networks
+- [x] **ResNeXt**: Aggregated Residual Transformations for Deep Neural Networks（Inception v4感觉比较好用）
 
   https://arxiv.org/abs/1611.05431
 
   https://zhuanlan.zhihu.com/p/51075096
+
+  https://zhuanlan.zhihu.com/p/78019001
 
   
 
