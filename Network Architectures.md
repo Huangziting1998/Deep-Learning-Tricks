@@ -79,6 +79,12 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
   https://zhuanlan.zhihu.com/p/77794592
 
   https://zhuanlan.zhihu.com/p/31852747
+  
+  
+  
+- [x] **FPN**: Feature Pyramid Networks for Object Detection
+
+  https://arxiv.org/abs/1612.03144
 
 
 
@@ -90,7 +96,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **Deformable ConvNet v1:** Deformable Convolutional Networks
 
-- [ ] **RetinaNet**: Focal Loss for Dense Object Detection
+- [x] **RetinaNet**: Focal Loss for Dense Object Detection
+
+  https://zhuanlan.zhihu.com/p/133317452
+
+  https://arxiv.org/abs/1708.02002
+
+  
 
 - [x] **SENet**: Squeeze-and-Excitation Networks
 
@@ -102,7 +114,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **ShuffleNet**: An Extremely Efficient Convolutional Neural Network for Mobile Devices 
 
-- [ ] **RexNeXt**: Aggregated Residual Transformations for Deep Neural Networks
+- [x] **ResNeXt**: Aggregated Residual Transformations for Deep Neural Networks
+
+  https://arxiv.org/abs/1611.05431
+
+  https://zhuanlan.zhihu.com/p/51075096
+
+  
 
 - [ ] **WideResNet**: Wide Residual Networks
 
