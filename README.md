@@ -37,7 +37,17 @@
 **过拟合**
 
 ```
-增加训练集样本，正则化
+增加训练集样本
+
+正则化
+
+Early Stopping
+
+Weight Decay
+
+Dropout
+
+调整网络结构
 ```
 
 
