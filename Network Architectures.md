@@ -112,7 +112,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] **ShuffleNet**: An Extremely Efficient Convolutional Neural Network for Mobile Devices 
+- [x] **ShuffleNet**: An Extremely Efficient Convolutional Neural Network for Mobile Devices 
+
+  https://arxiv.org/pdf/1707.01083.pdf
+
+  https://zhuanlan.zhihu.com/p/32304419
+
+  
 
 - [x] **ResNeXt**: Aggregated Residual Transformations for Deep Neural Networks（Inception v4感觉比较好用）
 
@@ -124,7 +130,11 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] **WideResNet**: Wide Residual Networks
+- [x] **WideResNet**: Wide Residual Networks
+
+  https://arxiv.org/abs/1605.07146
+
+  
 
 - [ ] **Mask R-CNN**
 
@@ -152,7 +162,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **SqueezeNext:** Hardware-Aware Neural Network Design
 
-- [ ] **ShuffleNet v2:** Practical Guidelines for Efficient CNN Architecture Design
+- [x] **ShuffleNet v2:** Practical Guidelines for Efficient CNN Architecture Design
+
+  https://arxiv.org/abs/1807.11164
+
+  https://zhuanlan.zhihu.com/p/48261931
+
+  
 
 - [ ] **PANet**: Path Aggregation Network for Instance Segmentation
 
@@ -216,7 +232,7 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **ResNest**:Split-Attention Networks
 
-- [ ] **YOLO v4:** Optimal Speed and Accuracy of Object Detection
+- [x] **YOLO v4:** Optimal Speed and Accuracy of Object Detection
 
   https://zhuanlan.zhihu.com/p/143747206
 
@@ -245,8 +261,6 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
   
 
 - [ ] **D2Det**: Towards High Quality Object Detection and Instance Segmentation
-
-- [ ] **MCUNet**: Tiny Deep Learning on IoT Devices
 
   
 
