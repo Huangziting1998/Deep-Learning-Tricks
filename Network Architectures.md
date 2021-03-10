@@ -140,8 +140,12 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **DenseNet**: Densely Connected Convolutional Networks
 
-- [ ] **MobileNets**: Efficient Convolutional Neural Networks for Mobile Vision Applications
+- [x] **MobileNets**: Efficient Convolutional Neural Networks for Mobile Vision Applications
 
+  https://arxiv.org/abs/1704.04861
+  
+  https://zhuanlan.zhihu.com/p/70703846
+  
   
 
 ------
@@ -158,7 +162,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] **MobileNetV2**: Inverted Residuals and Linear Bottlenecks
+- [x] **MobileNetV2**: Inverted Residuals and Linear Bottlenecks
+
+  https://arxiv.org/abs/1801.04381
+
+  https://zhuanlan.zhihu.com/p/70703846
+
+  
 
 - [ ] **SqueezeNext:** Hardware-Aware Neural Network Design
 
@@ -214,7 +224,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] Searching for **MobileNetV3**
+- [x] Searching for **MobileNetV3**
+
+  https://arxiv.org/abs/1905.02244
+
+  https://zhuanlan.zhihu.com/p/70703846
+
+  
 
 - [ ] **RepPoints**: Point Set Representation for Object Detection
 
