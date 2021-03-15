@@ -96,6 +96,132 @@ L2正则化：L2千万不要调太大，不然特别难训练；L2也不能太�
 
 
 
+## 目标检测Tricks
+
+
+
+**数据处理**
+
+```
+Mix up
+Cut up
+Label Smoothing
+Flip
+Random earse
+CutMix
+Masaic
+物体的随机粘贴（增加数据集）
+多尺度训练
+随机crop，随机expansion ，随机水平翻转，随机缩放，亮度，色调，饱和度，对比度
+```
+
+
+
+**难例挖掘**
+
+```
+OHEM
+S-OHEM
+```
+
+
+
+**Backbone**
+
+```
+ResNext
+CSPDarknet
+CSPResNeXt
+EfficientNet
+MobileNet
+ShuffleNet
+GhostNet
+```
+
+
+
+**Neck**
+
+```
+SPP：Spatial pyramid pooling in deep convolutional networks for visual recognition
+SAM：Convolutional block attention module
+FPN：Feature pyramid networks for object detection
+PANet：Path aggregation network for instance segmentation
+Bi-FPN：Scalable and efficient object detection
+ASFF：Learning spatial fusion for single-shot object detection
+```
+
+
+
+**激活函数**
+
+```
+ReLU
+ReLU6
+Swish
+hard-Swish
+Mish
+SiLU
+```
+
+
+
+**ROI**
+
+```
+RoIAlign
+```
+
+
+
+**损失函数**
+
+```
+Focal loss
+IOU Loss
+GIOU Loss
+DIOU Loss
+CIOU Loss
+Smooth L1 Loss
+```
+
+
+
+**提升定位精度方法**
+
+```
+IOU Loss、GIOU Loss、CIOU Loss、DIOU Loss
+Soft_NMS Softer_NMS
+Balanced L1 Loss
+```
+
+
+
+**训练trick**
+
+```
+Warm Up
+Multi Scale Training/Testing
+Cosine学习率衰减
+large batch BN
+DropOut, DropPath，Spatial DropOut ，DropBlock
+BN、CGBN、GN、LN、CmBN
+L1/L2
+Early stopping
+```
+
+
+
+**NMS**
+
+```
+Soft NMS
+Softer NMS
+DIoU NMS
+```
+
+
+
 ## 迁移学习
 
 

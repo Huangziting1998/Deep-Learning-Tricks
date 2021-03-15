@@ -79,7 +79,14 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
   https://zhuanlan.zhihu.com/p/77794592
 
   https://zhuanlan.zhihu.com/p/31852747
-  
+
+
+
+- [ ] **OHEM：**Training Region-based Object Detectors with Online Hard Example Mining
+
+  https://arxiv.org/pdf/1604.03540.pdf
+
+  https://zhuanlan.zhihu.com/p/58162337
 
 
 
