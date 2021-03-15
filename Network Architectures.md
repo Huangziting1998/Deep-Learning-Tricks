@@ -136,9 +136,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] **Mask R-CNN**
+- [x] **DenseNet**: Densely Connected Convolutional Networks
 
-- [ ] **DenseNet**: Densely Connected Convolutional Networks
+  https://arxiv.org/abs/1608.06993
+
+  https://zhuanlan.zhihu.com/p/37189203
+
+  
 
 - [x] **MobileNets**: Efficient Convolutional Neural Networks for Mobile Vision Applications
 
