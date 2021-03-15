@@ -186,6 +186,12 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **PANet**: Path Aggregation Network for Instance Segmentation
 
+  https://arxiv.org/abs/1803.01534
+
+  https://zhuanlan.zhihu.com/p/110204563
+
+  
+
 - [ ] **Shift:** A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions
 
 - [x] **YOLO v3** : An Incremental Improvement
