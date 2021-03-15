@@ -80,11 +80,6 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   https://zhuanlan.zhihu.com/p/31852747
   
-  
-  
-- [x] **FPN**: Feature Pyramid Networks for Object Detection
-
-  https://arxiv.org/abs/1612.03144
 
 
 
@@ -147,10 +142,20 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 - [x] **MobileNets**: Efficient Convolutional Neural Networks for Mobile Vision Applications
 
   https://arxiv.org/abs/1704.04861
-  
+
   https://zhuanlan.zhihu.com/p/70703846
+
   
-  
+
+- [ ] **FPN：**Feature Pyramid Networks for Object Detection
+
+  https://arxiv.org/abs/1612.03144
+
+  https://zhuanlan.zhihu.com/p/78160468
+
+  https://zhuanlan.zhihu.com/p/60340636
+
+
 
 ------
 
@@ -184,11 +189,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] **PANet**: Path Aggregation Network for Instance Segmentation
+- [x] **PANet**: Path Aggregation Network for Instance Segmentation
 
   https://arxiv.org/abs/1803.01534
 
   https://zhuanlan.zhihu.com/p/110204563
+
+  https://zhuanlan.zhihu.com/p/34472945
 
   
 
@@ -243,6 +250,18 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
   
 
 - [ ] **RepPoints**: Point Set Representation for Object Detection
+
+  
+
+
+
+- [ ] **SFF：**Learning Spatial Fusion for Single-Shot Object Detection
+
+- [ ] https://arxiv.org/pdf/1911.09516.pdf
+
+- [ ] https://mp.weixin.qq.com/s/2f6ovZ117wKTbZvv2uRwdA
+
+- [ ] 
 
   
 
