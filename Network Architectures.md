@@ -147,7 +147,7 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] **FPN：**Feature Pyramid Networks for Object Detection
+- [x] **FPN：**Feature Pyramid Networks for Object Detection
 
   https://arxiv.org/abs/1612.03144
 
@@ -255,7 +255,7 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 
 
-- [ ] **SFF：**Learning Spatial Fusion for Single-Shot Object Detection
+- [ ] **ASFF：**Learning Spatial Fusion for Single-Shot Object Detection
 
 - [ ] https://arxiv.org/pdf/1911.09516.pdf
 
