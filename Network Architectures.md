@@ -264,9 +264,11 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **ASFF：**Learning Spatial Fusion for Single-Shot Object Detection
 
-- [ ] https://arxiv.org/pdf/1911.09516.pdf
+  https://arxiv.org/pdf/1911.09516.pdf
 
-- [ ] https://mp.weixin.qq.com/s/2f6ovZ117wKTbZvv2uRwdA
+  https://mp.weixin.qq.com/s/2f6ovZ117wKTbZvv2uRwdA
+
+  
 
 - [ ] 
 
