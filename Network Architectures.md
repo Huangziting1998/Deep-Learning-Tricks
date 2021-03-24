@@ -352,7 +352,13 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] **YOLOF:**
+- [x] **YOLOF:**You Only Look One-level Feature
+
+  https://arxiv.org/abs/2103.09460
+
+  
+
+- [ ] 
 
 ------
 
