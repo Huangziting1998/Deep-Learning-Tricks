@@ -426,11 +426,10 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
 
   
 
-- [x] **YOLOF:**You Only Look One-level Feature
+- [x] **YOLOF**:You Only Look One-level Feature
 
   https://arxiv.org/abs/2103.09460
-
-<<<<<<< HEAD
+  
   https://zhuanlan.zhihu.com/p/359472549
 
   
