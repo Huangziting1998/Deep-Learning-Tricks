@@ -12,6 +12,62 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 
 
+### DEEP LEARNING WITH PYTORCH: A 60 MINUTE BLITZ
+
+https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learning-with-pytorch-a-60-minute-blitz
+
+
+
+- [x] 60 分钟快速入门 PyTorch官方教程
+
+  https://zhuanlan.zhihu.com/p/66543791
+
+
+
+------
+
+
+
+### 电子书
+
+
+
+- [ ] 动手学习深度学习（PyTorch）
+
+  
+
+- [x] Neural Networks and Deep Learning
+
+  
+
+- [x] Machine Learning Yearning
+
+  
+
+- [ ] Sklearn, Keras&TensorFlow机器学习实用指南（2nd Edition）
+
+  
+
+- [ ] 利用Python进行数据分析
+
+  
+
+- [ ] NYU_DeepLearning
+
+  https://atcold.github.io/pytorch-Deep-Learning/zh/
+
+  
+
+- [ ] PyCharm 中文指南
+
+  http://pycharm.iswbm.com/zh_CN/latest/#pycharm
+
+  
+
+------
+
+
+
 ### 2014
 
 - [x] **GoogleNet(Inception):** Going deeper with convolutions
@@ -28,7 +84,11 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 ### 2015
 
-- [ ] 
+- [x] **BN：**Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift
+
+  https://arxiv.org/abs/1502.03167
+
+  https://zhuanlan.zhihu.com/p/93643523
 
 
 
@@ -164,6 +224,12 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 
 
+- [x] An overview of gradient descent optimization algorithms
+
+  https://ruder.io/optimizing-gradient-descent/index.html
+
+
+
 ------
 
 
@@ -270,9 +336,15 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] 
+- [x] Bag of Tricks for Image Classification with Convolutional Neural Networks
 
+  https://arxiv.org/pdf/1812.01187.pdf
   
+  https://zhuanlan.zhihu.com/p/51870052
+  
+  
+  
+- [ ] 
 
 ------
 
@@ -344,6 +416,8 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
 - [ ] **R3Det**: Refined Single-Stage Detector with Feature Refinement for Rotating Object
 
+  
+
 - [x] **RepVGG**: Making VGG-style ConvNets Great Again
 
   https://arxiv.org/pdf/2101.03697.pdf
@@ -352,7 +426,23 @@ Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密
 
   
 
-- [ ] **YOLOF:**
+- [x] **YOLOF:**You Only Look One-level Feature
+
+  https://arxiv.org/abs/2103.09460
+
+  https://zhuanlan.zhihu.com/p/359472549
+
+  
+
+- [x] Bag of Tricks for Long-Tailed Visual Recognition with Deep Convolutional Neural Networks
+
+  https://cs.nju.edu.cn/wujx/paper/AAAI2021_Tricks.pdf
+
+  https://mp.weixin.qq.com/s/JC7h6x0PczfLDkV9zX_1HQ
+
+  
+
+- [ ] 
 
 ------
 
