@@ -430,6 +430,7 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
 
   https://arxiv.org/abs/2103.09460
 
+<<<<<<< HEAD
   https://zhuanlan.zhihu.com/p/359472549
 
   
@@ -440,6 +441,8 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
 
   https://mp.weixin.qq.com/s/JC7h6x0PczfLDkV9zX_1HQ
 
+=======
+>>>>>>> b8707b798e5e611d77d89876ad490a8683f163d0
   
 
 - [ ] 
