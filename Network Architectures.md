@@ -84,7 +84,7 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
 
 ### 2015
 
-- [x] **BN：**Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift
+- [x] **BN**：Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift
 
   https://arxiv.org/abs/1502.03167
 
@@ -142,7 +142,7 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
 
 
 
-- [ ] **OHEM：**Training Region-based Object Detectors with Online Hard Example Mining
+- [ ] **OHEM**：Training Region-based Object Detectors with Online Hard Example Mining
 
   https://arxiv.org/pdf/1604.03540.pdf
 
@@ -214,7 +214,7 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
 
   
 
-- [x] **FPN：**Feature Pyramid Networks for Object Detection
+- [x] **FPN**：Feature Pyramid Networks for Object Detection
 
   https://arxiv.org/abs/1612.03144
 
@@ -440,10 +440,9 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
   https://cs.nju.edu.cn/wujx/paper/AAAI2021_Tricks.pdf
 
   https://mp.weixin.qq.com/s/JC7h6x0PczfLDkV9zX_1HQ
-
-=======
->>>>>>> b8707b798e5e611d77d89876ad490a8683f163d0
   
+  
+
 
 - [ ] 
 
