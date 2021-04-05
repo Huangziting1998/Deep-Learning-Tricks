@@ -6,7 +6,7 @@
 
 
 
-- [ ] Python数据结构
+- [x] Python数据结构
 
   
 
@@ -18,7 +18,7 @@
 
   
 
-- [ ] https://python3-cookbook.readthedocs.io/zh_CN/latest/
+- [x] https://python3-cookbook.readthedocs.io/zh_CN/latest/
 
 
 
