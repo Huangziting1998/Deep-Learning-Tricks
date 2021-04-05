@@ -2,39 +2,33 @@
 
 
 
-```
-Notability笔记：https://www.jianguoyun.com/p/DX-HBzEQwZH2CBi8kt0D（访问密码：0fN4rL）
-```
+### Python
 
 
 
-------
-
-
-
-### DEEP LEARNING WITH PYTORCH: A 60 MINUTE BLITZ
-
-https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learning-with-pytorch-a-60-minute-blitz
-
-
-
-- [x] 60 分钟快速入门 PyTorch官方教程
-
-  https://zhuanlan.zhihu.com/p/66543791
-
-
-
-------
-
-
-
-### 电子书
-
-
-
-- [ ] 动手学习深度学习（PyTorch）
+- [ ] Python数据结构
 
   
+
+- [ ] Effective Python：编写高质量Python代码的90个有效方法
+
+  
+
+- [ ] 利用Python进行数据分析
+
+  
+
+- [ ] https://python3-cookbook.readthedocs.io/zh_CN/latest/
+
+
+
+------
+
+
+
+### 深度学习
+
+
 
 - [x] Neural Networks and Deep Learning
 
@@ -48,19 +42,19 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
 
   
 
-- [ ] 利用Python进行数据分析
-
-  
-
 - [ ] NYU_DeepLearning
 
   https://atcold.github.io/pytorch-Deep-Learning/zh/
 
   
 
-- [ ] PyCharm 中文指南
+- [x] 动手学习深度学习（PyTorch）v2
 
-  http://pycharm.iswbm.com/zh_CN/latest/#pycharm
+  https://courses.d2l.ai/zh-v2/
+
+  
+
+- [ ] 
 
   
 
@@ -362,6 +356,10 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
 
   https://zhuanlan.zhihu.com/p/143747206
 
+  https://cloud.tencent.com/developer/article/1620195
+
+  
+
 - [ ] **CSPNet:** A New Backbone that can Enhance Learning Capability of CNN 
 
 - [x] **U2-Net:** Going deeper with nested U-structure for salient object detection
@@ -401,8 +399,6 @@ https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#deep-learn
   
 
 - [ ] 
-
-  
 
   
 
