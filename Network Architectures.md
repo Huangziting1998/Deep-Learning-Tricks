@@ -18,7 +18,9 @@
 
   
 
-- [x] https://python3-cookbook.readthedocs.io/zh_CN/latest/
+- [x] Python Cookbook
+
+  https://python3-cookbook.readthedocs.io/zh_CN/latest/
 
 
 
@@ -338,6 +340,14 @@
   
   
   
+- [x] **FCOS:** Fully Convolutional One-Stage Object Detection
+
+  https://arxiv.org/abs/1904.01355
+
+  https://zhuanlan.zhihu.com/p/62869137
+
+  
+
 - [ ] 
 
 ------

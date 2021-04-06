@@ -486,7 +486,9 @@ Loss设计：使用了Focal Loss和CrossEntropy Loss联合训练的方案，避�
 
 **清除低质量类别**
 
+```
 在数据集的5000个类别中，人工看了图片数量少于50的类别，剔除其中图片混乱，无法确认此类别的具体标签。
+```
 
 
 
@@ -508,7 +510,9 @@ Loss设计：使用了Focal Loss和CrossEntropy Loss联合训练的方案，避�
 
 **Backbones**
 
+```
 在模型选型上，只使用了如下backbones：EfficientNet-b4、EfficientNet-b5
+```
 
 
 
@@ -539,7 +543,9 @@ Loss设计：使用了Focal Loss和CrossEntropy Loss联合训练的方案，避�
 
 **Ensemble**
 
+```
 通过选取不同版本的数据集，以及以上不同的数据增强、数据均衡、蒸馏方法和模型结构，训练多个模型。
+```
 
 
 
