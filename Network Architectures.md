@@ -449,6 +449,22 @@
   
 
 
+- [x] Revisiting ResNets: Improved Training and Scaling Strategies
+
+  https://arxiv.org/pdf/2103.07579.pdf
+
+  https://mp.weixin.qq.com/s/bt8kLN1a5BrUu8zaoJcXeA
+
+  
+
+- [x] CReST: A Class-Rebalancing Self-Training Framework for Imbalanced Semi-Supervised Learning（长尾分布）
+
+  https://arxiv.org/abs/2102.09559
+
+  https://zhuanlan.zhihu.com/p/360067653
+
+  
+
 - [ ] 
 
 ------
