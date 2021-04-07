@@ -10,6 +10,10 @@
 
   
 
+- [x] Python Cookbook
+
+  https://python3-cookbook.readthedocs.io/zh_CN/latest/
+
 - [ ] Effective Python：编写高质量Python代码的90个有效方法
 
   
@@ -18,9 +22,15 @@
 
   
 
-- [x] Python Cookbook
+- [ ] 流畅的Python
 
-  https://python3-cookbook.readthedocs.io/zh_CN/latest/
+  
+
+- [ ] Python编程从入门到实践
+
+  
+
+- [ ] Python核心编程
 
 
 
@@ -40,6 +50,10 @@
 
   
 
+- [x] 动手学习深度学习（PyTorch）v2
+
+  https://courses.d2l.ai/zh-v2/
+
 - [ ] Sklearn, Keras&TensorFlow机器学习实用指南（2nd Edition）
 
   
@@ -50,13 +64,11 @@
 
   
 
-- [x] 动手学习深度学习（PyTorch）v2
-
-  https://courses.d2l.ai/zh-v2/
+- [ ] Python深度学习
 
   
-
-- [ ] 
+  
+- [ ] Sklearn与TensorFlow机器学习实用指南（2nd）
 
   
 
@@ -220,7 +232,7 @@
 
 
 
-- [x] An overview of gradient descent optimization algorithms
+- [x] An overview of **gradient descent optimization algorithms**
 
   https://ruder.io/optimizing-gradient-descent/index.html
 
@@ -320,8 +332,6 @@
 
 - [ ] **RepPoints**: Point Set Representation for Object Detection
 
-  
-
 
 
 - [ ] **ASFF：**Learning Spatial Fusion for Single-Shot Object Detection
@@ -349,6 +359,8 @@
   
 
 - [ ] 
+
+  
 
 ------
 
