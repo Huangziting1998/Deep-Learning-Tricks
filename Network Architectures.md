@@ -228,6 +228,8 @@
 
 - [ ] **Deformable ConvNet v1:** Deformable Convolutional Networks
 
+  
+
 - [x] **RetinaNet**: Focal Loss for Dense Object Detection
 
   https://zhuanlan.zhihu.com/p/133317452
@@ -324,6 +326,8 @@
 
 - [ ] **SqueezeNext:** Hardware-Aware Neural Network Design
 
+  
+
 - [x] **ShuffleNet v2:** Practical Guidelines for Efficient CNN Architecture Design
 
   https://arxiv.org/abs/1807.11164
@@ -344,6 +348,8 @@
 
 - [ ] **Shift:** A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions
 
+  
+
 - [x] **YOLO v3** : An Incremental Improvement
 
   https://arxiv.org/pdf/1804.02767.pdf
@@ -362,9 +368,15 @@
 
 - [ ] **Deformable ConvNet v2:** More Deformable, Better Results
 
+  
+
 - [ ] **ACNet:** Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks
 
+  
+
 - [ ] **ThunderNet:** Towards Real-time Generic Object Detection
+
+  
 
 - [x] **SKNet**: Selective Kernel Networks
 
@@ -376,7 +388,11 @@
 
 - [ ] **Res2Net:** A New Multi-scale Backbone Architecture
 
+  
+
 - [ ] **CenterNet:** Objects as Points
+
+  
 
 - [ ] **EfficientNet**: Rethinking Model Scaling for Convolutional Neural Networks
 
@@ -432,9 +448,15 @@
 
 - [ ] **DETR**: End-to-End Object Detection with Transformers
 
+  
+
 - [ ] **RepPoints v2:** Verification Meets Regression for Object Detection
 
+  
+
 - [ ] **ResNest**:Split-Attention Networks
+
+  
 
 - [x] **YOLO v4:** Optimal Speed and Accuracy of Object Detection
 
@@ -445,6 +467,8 @@
   
 
 - [ ] **CSPNet:** A New Backbone that can Enhance Learning Capability of CNN 
+
+  
 
 - [x] **U2-Net:** Going deeper with nested U-structure for salient object detection
 
@@ -461,6 +485,8 @@
   
 
 - [ ] **Deformable DETR**: Deformable Transformers for End-to-End Object Detection
+
+  
 
 - [ ] **EfficientDet**: Scalable and Efficient Object Detection
 
