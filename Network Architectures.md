@@ -1,51 +1,3 @@
-------
-
-
-
-### 其他
-
-- [x] 被讨厌的勇气:“自我启发之父”阿德勒的哲学课
-
-  
-
-- [x] 内向性格的竞争力：发挥你的本来优势
-
-  
-
-- [x] 睡眠革命:如何让你的睡眠更高效
-
-  
-
-- [x] 深度工作：如何有效使用每一点儿脑力
-
-  
-
-- [x] 指数基金投资指南
-
-  
-
-- [ ] 亲密关系
-
-  
-
-- [ ] 查理宝典
-
-  
-
-- [ ] 价值
-
-  
-
-- [ ] 巴菲特致股东的信
-
-  
-
-- [ ] 小狗钱钱1 2
-
-  
-
-- [ ] 财务自由之路1 2 3
-
 
 
 ------
@@ -98,10 +50,6 @@
 
   
 
-- [x] Machine Learning Yearning
-
-  
-
 - [x] 动手学习深度学习（PyTorch）v2
 
   https://courses.d2l.ai/zh-v2/
@@ -118,14 +66,6 @@
 
   
 
-- [ ] Python深度学习
-
-  
-  
-- [ ] Sklearn与TensorFlow机器学习实用指南（2nd）
-
-  
-  
 - [ ] Machine Learning (2021) Mandarin Version
 
   https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J
@@ -256,7 +196,7 @@
 
   
 
-- [x] **ResNeXt**: Aggregated Residual Transformations for Deep Neural Networks（Inception v4感觉比较好用）
+- [x] **ResNeXt**: Aggregated Residual Transformations for Deep Neural Networks
 
   https://arxiv.org/abs/1611.05431
 
@@ -310,7 +250,7 @@
 
 ### 2018
 
-- [x] **CornerNet**: Detecting Objects as Paired Keypoints
+- [x] **CornerNet**: Detecting Objects as Paired Keypoints（Anchor free）
 
   https://arxiv.org/abs/1808.01244
 
@@ -345,10 +285,6 @@
   https://zhuanlan.zhihu.com/p/110204563
 
   https://zhuanlan.zhihu.com/p/34472945
-
-  
-
-- [ ] **Shift:** A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions
 
   
 
@@ -392,7 +328,7 @@
 
   
 
-- [ ] **CenterNet:** Objects as Points
+- [ ] **CenterNet:** Objects as Points（Anchor free）
 
   
 
@@ -414,14 +350,6 @@
 
 
 
-- [ ] **ASFF：**Learning Spatial Fusion for Single-Shot Object Detection
-
-  https://arxiv.org/pdf/1911.09516.pdf
-
-  https://mp.weixin.qq.com/s/2f6ovZ117wKTbZvv2uRwdA
-
-  
-
 - [x] Bag of Tricks for Image Classification with Convolutional Neural Networks
 
   https://arxiv.org/pdf/1812.01187.pdf
@@ -430,7 +358,7 @@
   
   
   
-- [x] **FCOS:** Fully Convolutional One-Stage Object Detection
+- [x] **FCOS:** Fully Convolutional One-Stage Object Detection（Anchor free）
 
   https://arxiv.org/abs/1904.01355
 
@@ -448,7 +376,11 @@
 
 ### 2020
 
-- [ ] **DETR**: End-to-End Object Detection with Transformers
+- [ ] **DETR**: End-to-End Object Detection with Transformers（Transformer）
+
+  
+
+- [ ] **Deformable DETR**: Deformable Transformers for End-to-End Object Detection（Transformer）
 
   
 
@@ -483,10 +415,6 @@
   http://www.weixiushen.com/publication/cvpr20_BBN.pdf
 
   https://zhuanlan.zhihu.com/p/123876769
-
-  
-
-- [ ] **Deformable DETR**: Deformable Transformers for End-to-End Object Detection
 
   
 
@@ -559,7 +487,7 @@
 
   
 
-- [x] CReST: A Class-Rebalancing Self-Training Framework for Imbalanced Semi-Supervised Learning（长尾分布）
+- [x] **CReST**: A Class-Rebalancing Self-Training Framework for Imbalanced Semi-Supervised Learning（长尾分布）
 
   https://arxiv.org/abs/2102.09559
 
@@ -567,7 +495,23 @@
 
   
 
-- [ ] 
+- [ ] Swin Transformer: Hierarchical Vision Transformer using Shifted Windows（Transformer）
+
+  https://arxiv.org/abs/2103.14030
+
+
+
+- [ ] Towards Open World Object Detection
+
+  https://arxiv.org/abs/2103.02603
+
+
+
+- [ ] **DeiT：**Training data-efficient image transformers & distillation through attention（Transformer）
+
+  https://arxiv.org/abs/2012.12877
+
+
 
 ------
 
