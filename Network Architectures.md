@@ -378,6 +378,8 @@
 
 - [ ] **DETR**: End-to-End Object Detection with Transformers（Transformer）
 
+  https://arxiv.org/abs/2005.12872
+
   
 
 - [ ] **Deformable DETR**: Deformable Transformers for End-to-End Object Detection（Transformer）
