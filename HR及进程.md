@@ -36,7 +36,7 @@
 
 ​	Good evening sir. It’s a great honor for me to seat here and introduce myself. my name is Li Junjie. from Xian,during the past two years ,I have been studying in the Northwestern Polytechnical University for my masters degree ,majoring in computer science and technology. especially in object detection and salient object detection.fortunately, some results have been achieved. And I’m so glad to get your interview invitation. I hope we can have a pleasant conversation.
 
-​	面试官，您好！我叫xxx，来自西安，是西北工业大学计算机学院2022级硕士，主要研究方向是显著性目标检测和目标检测。在19年12月到20年10月在做显著性目标检测，出发点是现有SOD网络有一个很大的缺点是模型、计算量大，复杂度高，19年CVPR的BASNet和2020年twitter很火的U2Net动辄160MB以上，推理速度最高27PFS，不能满足实时性需求，受生物捕猎过程启发，提出了新的网络架构NUSNet，设计为双层嵌套U型结构用于在多尺度上从粗到细粒度提取并整合特征，探讨了注意力机制在不同Stage对于融合性能的影响，模型大小为77MB，在1080ti上推理速度57 FPS，五个公共数据集上极具竞争性，实现了精度与速度的平衡；相应的是也有一些产出：其成果投稿一篇CCF B类，提交一项发明专利；在20年10月份硕士开题则是以四川烟草局非格式化涉烟目标检测项目作为题目，那么直到现在我一都在做目标检测的相关工作，项目是以Anchor Based YOLOv5为BaseLine的，除此之外EFFicientDet，Anchor Free FCOS和CornerNet也有涉猎，那么之后的一段时间会将重心转移到Vision Transformer，例如DETR， ViT等等，最近已经学了解了Transformer包括后续的BERT和GPT-2在NLP中的基本原理。以上就是我在过去两年的一些经历，最后，很高兴能得到这次面试机会。
+​	面试官，您好！我叫xxx，来自西安，是xxx大学计算机学院2022级硕士，主要研究方向是显著性目标检测和目标检测。在19年12月到20年10月在做显著性目标检测，出发点是现有SOD网络有一个很大的缺点是模型、计算量大，复杂度高，19年CVPR的BASNet和2020年twitter很火的U2Net动辄160MB以上，推理速度最高27PFS，不能满足实时性需求，受生物捕猎过程启发，提出了新的网络架构NUSNet，设计为双层嵌套U型结构用于在多尺度上从粗到细粒度提取并整合特征，探讨了注意力机制在不同Stage对于融合性能的影响，模型大小为77MB，在1080ti上推理速度57 FPS，五个公共数据集上极具竞争性，实现了精度与速度的平衡；相应的是也有一些产出：其成果投稿一篇CCF B类，提交一项发明专利；在20年10月份硕士开题则是以四川烟草局非格式化涉烟目标检测项目作为题目，那么直到现在我一都在做目标检测的相关工作，项目是以Anchor Based YOLOv5为BaseLine的，除此之外EFFicientDet，Anchor Free FCOS和CornerNet也有涉猎，那么之后的一段时间会将重心转移到Vision Transformer，例如DETR， ViT等等，最近已经学了解了Transformer包括后续的BERT和GPT-2在NLP中的基本原理。以上就是我在过去两年的一些经历，最后，很高兴能得到这次面试机会。
 
 
 
