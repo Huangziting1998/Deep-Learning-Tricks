@@ -8,7 +8,7 @@ class focal_loss(nn.Module):
         """
         focal_loss损失函数, -α(1-yi)**γ *ce_loss(xi,yi)
         步骤详细的实现了 focal_loss损失函数.
-        :param alpha:   阿尔法α,类别权重.      当α是列表时,为各类别权重,当α为常数时,类别权重为[α, 1-α, 1-α, ....],常用于 目标检测算法中抑制背景类 , retainnet中设置为0.25
+        :param alpha:   阿尔法α,类别权重.      当α是列表时,为各类别权重,当α为常数时,类别权重为[α, 1-α, 1-α, ....],常用于目标检测算法中抑制背景类 , retainnet中设置为0.25
         :param gamma:   伽马γ,难易样本调节参数. retainnet中设置为2
         :param num_classes:     类别数量
         :param size_average:    损失计算方式,默认取均值
@@ -17,11 +17,11 @@ class focal_loss(nn.Module):
         self.size_average = size_average
         if isinstance(alpha, list):
             assert len(alpha) == num_classes  # α可以以list方式输入,size:[num_classes] 用于对不同类别精细地赋予权重
-            print(" --- Focal_loss alpha = {}, 将对每一类权重进行精细化赋值 --- ".format(alpha))
+            print("  Focal_loss alpha = {}, 将对每一类权重进行精细化赋值  ".format(alpha))
             self.alpha = torch.Tensor(alpha)
         else:
             assert alpha < 1  # 如果α为一个常数,则降低第一类的影响,在目标检测中为第一类
-            print(" --- Focal_loss alpha = {} ,将对背景类进行衰减,请在目标检测任务中使用 --- ".format(alpha))
+            print("  Focal_loss alpha = {} ,将对背景类进行衰减,请在目标检测任务中使用  ".format(alpha))
             self.alpha = torch.zeros(num_classes)
             self.alpha[0] += alpha
             self.alpha[1:] += (1 - alpha)  # α 最终为 [ α, 1-α, 1-α, 1-α, 1-α, ...] size:[num_classes]
@@ -54,19 +54,23 @@ class focal_loss(nn.Module):
             loss = loss.sum()
         return loss
 
-
+print("---------------------------------------------------------------------")
 pred = torch.randn((3, 5))
-print("pred:", pred)
-
 label = torch.tensor([2, 3, 4])
-print("label:", label)
+print("pred:->", pred)
+print("label:->", label)
+
+print("---------------------------------------------------------------------")
 
 # alpha设定为0.25,对第一类影响进行减弱(目标检测任务中,第一类为背景类)
 loss_fn = focal_loss(alpha=0.25, gamma=2, num_classes=5)
 loss = loss_fn(pred, label)
 print("alpha=0.25:", loss)
 
+print("---------------------------------------------------------------------")
+
 # alpha输入列表,分别对每一类施加不同的权重
 loss_fn = focal_loss(alpha=[1, 2, 3, 1, 2], gamma=2, num_classes=5)
 loss = loss_fn(pred, label)
 print("alpha=[1,2,3,1,2]:", loss)
+print("---------------------------------------------------------------------")
