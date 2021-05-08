@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6856e642-7ed1-43ac-9a6f-6512374187f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/focal_loss.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k-means.py" beforeDir="false" afterPath="$PROJECT_DIR$/k-means.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k-means.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p_r_acc_f1score.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../深度学习面试总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/../深度学习面试总结.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1qmAYNRHsyWMerHNIC1WMZhzyF2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,7 +47,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.k-means">
+  <component name="RunManager" selected="Python.focal_loss">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="DL-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,42 +94,20 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DL-code" />
+    <configuration name="2.k-means" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\Anaconda3\envs\test\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="AUC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DL-code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AUC.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.k-means.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,6 +152,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="focal_loss" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda3\envs\test\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/focal_loss.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.focal_loss" />
+        <item itemvalue="Python.2.k-means" />
         <item itemvalue="Python.k-means" />
         <item itemvalue="Python.p_r_acc_f1score" />
         <item itemvalue="Python.K-Means" />
-        <item itemvalue="Python.AUC" />
-        <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +324,8 @@
       <workItem from="1619606452133" duration="74000" />
       <workItem from="1620288596577" duration="6108000" />
       <workItem from="1620460560942" duration="1070000" />
-      <workItem from="1620461645210" duration="1944000" />
+      <workItem from="1620461645210" duration="2009000" />
+      <workItem from="1620463689563" duration="844000" />
     </task>
     <servers />
   </component>
@@ -328,10 +333,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="668" y="132" key="#2.k-means" timestamp="1620463738599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="132" key="#2.k-means/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620463738599" />
+    <state x="552" y="178" key="#Deployment" timestamp="1620463723980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620463723980" />
     <state x="668" y="132" key="#PRF1" timestamp="1620461254979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="132" key="#PRF1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620461254979" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620463729685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620463729685" />
+    <state x="668" y="145" key="#focal_loss" timestamp="1620464510686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="145" key="#focal_loss/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620464510686" />
     <state x="668" y="132" key="#k-means" timestamp="1620463128093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -340,26 +361,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620461629137" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1620463576302">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1620464510710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1619331650533" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620463576302" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1620463576302">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620464510710" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1620464510710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1619331650533" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620463576302" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1620463576302">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620464510710" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1620464510710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1619331650533" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620463576302" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1620463576302">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620464510710" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1620464510710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1619331650533" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620463576302" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620464510710" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1618639672107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -376,10 +397,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1618639672107" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1618197287544">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1620463749804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1618197287544" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620463749804" />
     <state x="-1920" y="0" width="1664" height="695" maximized="true" key="dock-window-1" timestamp="1617960463776">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -402,6 +423,7 @@
     <SUITE FILE_PATH="coverage/test$detect.coverage" NAME="detect Coverage Results" MODIFIED="1617968618953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Project/test/yolov5-cigarette" />
     <SUITE FILE_PATH="coverage/test$prim.coverage" NAME="prim Coverage Results" MODIFIED="1619506517958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$kruskal.coverage" NAME="kruskal Coverage Results" MODIFIED="1619505883652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DL_code$2_k_means.coverage" NAME="2.k-means Coverage Results" MODIFIED="1620463739150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$heapq.coverage" NAME="heapq Coverage Results" MODIFIED="1618197310001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$testio.coverage" NAME="testio Coverage Results" MODIFIED="1619073254765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$zigzag.coverage" NAME="zigzag Coverage Results" MODIFIED="1619429482300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -412,5 +434,6 @@
     <SUITE FILE_PATH="coverage/test$lt764.coverage" NAME="lt764 Coverage Results" MODIFIED="1619402392531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$test.coverage" NAME="test Coverage Results" MODIFIED="1619489344711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$AUC.coverage" NAME="AUC Coverage Results" MODIFIED="1620290127465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DL_code$focal_loss.coverage" NAME="focal_loss Coverage Results" MODIFIED="1620464510699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
