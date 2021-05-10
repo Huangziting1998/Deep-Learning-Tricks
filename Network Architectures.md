@@ -18,6 +18,8 @@
 
 - [ ] 背包问题九讲
 
+  https://github.com/tianyicui/pack
+
 
 
 ------
@@ -32,7 +34,7 @@
 
   
 
-- [x] Python Cookbook
+- [ ] Python Cookbook
 
   https://python3-cookbook.readthedocs.io/zh_CN/latest/
 
@@ -80,9 +82,7 @@
 
   
 
-- [ ] NYU_DeepLearning
-
-  https://atcold.github.io/pytorch-Deep-Learning/zh/
+- [ ] DEEP LEARNING
 
   
 
