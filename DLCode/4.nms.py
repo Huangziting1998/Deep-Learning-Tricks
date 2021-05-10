@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def NMS(dets, thresh):
+def nms(dets, thresh):
     # dets某个类的框，x1、y1、x2、y2、以及置信度score
     # eg:dets为[[x1,y1,x2,y2,score],[x1,y1,y2,score]……]]
     # thresh是IoU的阈值
@@ -13,7 +13,7 @@ def NMS(dets, thresh):
     # 按照score置信度降序排序
     order = np.argsort(scores)[::-1]
     keep = []  # 保留的结果框集合
-    while order:
+    while order.size > 0:
         i = order[0]  # i表示box得分最高的索引
         keep.append(i)  # 保留该类剩余box中得分最高的一个
         # 得到相交区域,左上及右下
@@ -29,5 +29,15 @@ def NMS(dets, thresh):
         ovr = inter / (areas[i] + areas[order[1:]] - inter)
         # 保留IoU小于阈值的box
         inds = np.where(ovr <= thresh)[0]  # 返回坐标
-        order[:] = order[inds + 1]  # 因为ovr数组的长度比order数组少一个（0是选取的基准）,所以这里要将所有下标后移一位
+        order = order[inds + 1]  # 因为ovr数组的长度比order数组少一个（0是选取的基准）,所以这里要将所有下标后移一位
     return keep
+
+
+dets = np.array([
+    [11.5, 12, 311.4, 410.6, 0.85],
+    [0.5, 1, 300.4, 400.5, 0.97],
+    [200.5, 300, 700.4, 1000.6, 0.65],
+    [250.5, 310, 700.4, 1000.6, 0.72]
+])
+res = nms(dets, 0.5)
+print(dets[res])
