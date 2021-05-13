@@ -466,7 +466,7 @@
 
   
   
-- [ ] SOLOv2: Dynamic and Fast Instance Segmentation
+- [ ] **SOLOv2**: Dynamic and Fast Instance Segmentation
 
   https://arxiv.org/abs/2003.10152
 
