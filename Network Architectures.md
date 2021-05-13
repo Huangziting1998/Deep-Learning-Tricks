@@ -460,9 +460,19 @@
 
   
 
-- [ ] 
+- [ ] **SOLO**: Segmenting Objects by Locations
+
+  https://arxiv.org/abs/1912.04488
 
   
+  
+- [ ] SOLOv2: Dynamic and Fast Instance Segmentation
+
+  https://arxiv.org/abs/2003.10152
+
+  
+  
+- [ ] 
 
   
 
@@ -532,6 +542,12 @@
 - [ ] **DeiT：**Training data-efficient image transformers & distillation through attention（Transformer）
 
   https://arxiv.org/abs/2012.12877
+  
+  
+  
+- [ ] S2A-Net
+
+  解决了2个问题：Anchor与旋转框不匹配，旋转框和特征不匹配
 
 
 

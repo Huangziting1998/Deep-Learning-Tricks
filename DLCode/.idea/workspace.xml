@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6856e642-7ed1-43ac-9a6f-6512374187f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/split_train_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../深度学习面试总结.md" beforeDir="false" afterPath="$PROJECT_DIR$/../深度学习面试总结.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,7 +324,7 @@
       <workItem from="1620463689563" duration="1781000" />
       <workItem from="1620652882310" duration="635000" />
       <workItem from="1620889436969" duration="449000" />
-      <workItem from="1620889898929" duration="3467000" />
+      <workItem from="1620889898929" duration="4077000" />
     </task>
     <servers />
   </component>
