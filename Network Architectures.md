@@ -472,9 +472,15 @@
 
   
   
-- [ ] 
+- [ ] **PP-YOLO**: An Effective and Efficient Implementation of Object Detector
 
+  https://arxiv.org/pdf/2007.12099.pdf
   
+  
+  
+- [ ] **YOLObile**: Real-Time Object Detection on Mobile Devices via Compression-Compilation Co-Design
+
+  https://arxiv.org/abs/2009.05697
 
 ------
 
@@ -548,6 +554,16 @@
 - [ ] S2A-Net
 
   解决了2个问题：Anchor与旋转框不匹配，旋转框和特征不匹配
+  
+  
+  
+- [ ] **PP-YOLOv2**: A Practical Object Detector
+
+  https://arxiv.org/abs/2104.10419
+
+  
+
+- [ ] 
 
 
 
