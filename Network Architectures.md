@@ -561,9 +561,11 @@
   
   
   
-- [ ] **PP-YOLOv2**: A Practical Object Detector
+- [x] **PP-YOLOv2**: A Practical Object Detector
 
   https://arxiv.org/abs/2104.10419
+
+  https://zhuanlan.zhihu.com/p/367312049
 
   
 
