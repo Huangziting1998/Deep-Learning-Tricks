@@ -472,9 +472,11 @@
 
   
   
-- [ ] **PP-YOLO**: An Effective and Efficient Implementation of Object Detector
+- [x] **PP-YOLO**: An Effective and Efficient Implementation of Object Detector
 
   https://arxiv.org/pdf/2007.12099.pdf
+  
+  https://zhuanlan.zhihu.com/p/164704942
   
   
   
