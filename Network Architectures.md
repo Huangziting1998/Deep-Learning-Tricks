@@ -396,9 +396,11 @@
 
 ### 2020
 
-- [ ] **DETR**: End-to-End Object Detection with Transformers（Transformer）
+- [x] **DETR**: End-to-End Object Detection with Transformers（Transformer）
 
   https://arxiv.org/abs/2005.12872
+
+  https://zhuanlan.zhihu.com/p/267156624
 
   
 
