@@ -401,6 +401,14 @@
   https://arxiv.org/abs/2005.12872
 
   https://zhuanlan.zhihu.com/p/267156624
+  
+  
+
+- [x] **ViT：**An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+
+  https://arxiv.org/abs/2010.11929
+
+  https://zhuanlan.zhihu.com/p/356155277
 
   
 
