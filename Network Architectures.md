@@ -432,7 +432,9 @@
 
   
 
-- [ ] **CSPNet:** A New Backbone that can Enhance Learning Capability of CNN 
+- [x] **CSPNet:** A New Backbone that can Enhance Learning Capability of CNN 
+
+  https://zhuanlan.zhihu.com/p/124838243
 
   
 
