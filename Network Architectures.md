@@ -2,23 +2,31 @@
 
 ### 面试
 
+　
 
-
-- [ ] 程序员代码面试之南（2nd）
+- [ ] 程序员代码面试之南
 
   
 
-- [ ] https://github.com/youngyangyang04/leetcode-master
+- [x] https://github.com/youngyangyang04/leetcode-master
 
 
 
-- [ ] https://github.com/Inmessionant/Algorithm-Pattern-python
+- [x] https://github.com/Inmessionant/Algorithm-Pattern-python
 
 
 
 - [ ] 背包问题九讲
 
   https://github.com/tianyicui/pack
+  
+  
+  
+- [ ] 百面深度学习
+
+
+
+- [ ] 概率论与数理统计
 
 
 
@@ -30,7 +38,7 @@
 
 
 
-- [x] Python数据结构
+- [x] Python数据结构与算法分析
 
   
 
@@ -50,13 +58,6 @@
 
 - [ ] 流畅的Python
 
-  
-
-- [ ] Python编程从入门到实践
-
-  
-
-- [ ] Python核心编程
 
 
 
@@ -76,7 +77,12 @@
 
   https://courses.d2l.ai/zh-v2/
 
-  
+
+
+
+- [ ] Deep Learning with Python
+
+
 
 - [ ] Sklearn, Keras&TensorFlow机器学习实用指南（2nd Edition）
 
@@ -91,9 +97,6 @@
   https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J
   
   
-  
-- [ ] 
-
   
 
 ------
