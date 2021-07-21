@@ -90,12 +90,19 @@
 
 - [ ] DEEP LEARNING
 
+
+
+- [ ] Convex optimization
+
+
+
+- [ ] Nonlinear programming
+
   
 
 - [ ] Machine Learning (2021) Mandarin Version
 
   https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J
-  
   
   
 
