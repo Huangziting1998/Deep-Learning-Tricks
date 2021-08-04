@@ -22,11 +22,11 @@
   
   
   
-- [ ] 百面深度学习
+- [ ] 百面机器学习
 
 
 
-- [ ] 概率论与数理统计
+- [x] 概率论与数理统计
 
 
 
@@ -563,7 +563,7 @@
 
   
 
-- [ ] Swin Transformer: Hierarchical Vision Transformer using Shifted Windows（Transformer）
+- [ ] **Swin Transformer**: Hierarchical Vision Transformer using Shifted Windows（Transformer）
 
   https://arxiv.org/abs/2103.14030
 
@@ -581,11 +581,9 @@
   
   
   
-- [ ] S2A-Net
+- [ ] **YOLOX**: Exceeding YOLO Series in 2021
 
-  解决了2个问题：Anchor与旋转框不匹配，旋转框和特征不匹配
-  
-  
+  https://arxiv.org/abs/2107.08430
   
 - [x] **PP-YOLOv2**: A Practical Object Detector
 
