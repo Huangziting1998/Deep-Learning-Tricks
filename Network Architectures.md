@@ -1,6 +1,8 @@
 ------
 
-### 面试
+
+
+### 算法岗
 
 　
 
@@ -28,17 +30,7 @@
 
 - [x] Python数据结构与算法分析
 
-  
-
-- [ ] Python Cookbook
-
-  https://python3-cookbook.readthedocs.io/zh_CN/latest/
-
-  
-
 - [ ] Effective Python：编写高质量Python代码的90个有效方法
-
-  
 
 - [ ] 利用Python进行数据分析（2nd）
 
@@ -50,40 +42,26 @@
 
 
 
-### 深度学习
+### 机器学习 & 深度学习
 
 
 
 - [x] Neural Networks and Deep Learning
 
-
-
 - [x] 浙江大学-研究生机器学习
 
-  
-
-- [x] 动手学习深度学习（PyTorch）v2
-
-  https://courses.d2l.ai/zh-v2/
-
-
+- [x] 动手学习深度学习（PyTorch）v2：https://courses.d2l.ai/zh-v2/
+- [ ] 邱锡鹏 - 神经网络与深度学习
+- [ ] 林轩田 - 机器学习基石 / 机器学习技法
 
 - [ ] Sklearn, Keras&TensorFlow机器学习实用指南（2nd Edition）
 
-  
-
 - [ ] Deep Learning
-
-
 
 - [ ] Convex Optimization
 
+- [ ] Machine Learning (2021) ：https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J
 
-
-- [ ] Machine Learning (2021) Mandarin Version
-
-  https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J
-  
   
 
 ------
@@ -91,6 +69,8 @@
 
 
 ### 2014
+
+
 
 - [x] **GoogleNet(Inception):** Going deeper with convolutions
 
@@ -106,6 +86,8 @@
 
 ### 2015
 
+
+
 - [x] **BN**：Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift
 
   https://arxiv.org/abs/1502.03167
@@ -119,6 +101,8 @@
 
 
 ### 2016
+
+
 
 - [x] **YOLO v1**: You Only Look Once: Unified, Real-Time Object Detection
 
@@ -177,6 +161,8 @@
 
 
 ### 2017
+
+
 
 - [ ] **Deformable ConvNet v1:** Deformable Convolutional Networks
 
@@ -260,6 +246,8 @@
 
 ### 2018
 
+
+
 - [x] **CornerNet**: Detecting Objects as Paired Keypoints（Anchor free）
 
   https://arxiv.org/abs/1808.01244
@@ -313,6 +301,8 @@
 
 
 ### 2019
+
+
 
 - [ ] **Deformable ConvNet v2:** More Deformable, Better Results
 
@@ -386,6 +376,8 @@
 
 ### 2020
 
+
+
 - [x] **DETR**: End-to-End Object Detection with Transformers（Transformer）
 
   https://arxiv.org/abs/2005.12872
@@ -402,19 +394,15 @@
 
   
 
-- [ ] **Deformable DETR**: Deformable Transformers for End-to-End Object Detection（Transformer）
-
-  
-
 - [ ] **RepPoints v2:** Verification Meets Regression for Object Detection
 
   
 
-- [ ] **ResNest**:Split-Attention Networks
+- [ ] **ResNest：**Split-Attention Networks
 
   
 
-- [x] **YOLO v4:** Optimal Speed and Accuracy of Object Detection
+- [x] **YOLO v4：** Optimal Speed and Accuracy of Object Detection
 
   https://zhuanlan.zhihu.com/p/143747206
 
@@ -494,6 +482,8 @@
 
 ### 2021
 
+
+
 - [ ] **R3Det**: Refined Single-Stage Detector with Feature Refinement for Rotating Object
 
   
@@ -523,19 +513,11 @@
   
 
 
-- [x] Revisiting ResNets: Improved Training and Scaling Strategies
+- [ ] Revisiting ResNets: Improved Training and Scaling Strategies
 
   https://arxiv.org/pdf/2103.07579.pdf
 
   https://mp.weixin.qq.com/s/bt8kLN1a5BrUu8zaoJcXeA
-
-  
-
-- [x] **CReST**: A Class-Rebalancing Self-Training Framework for Imbalanced Semi-Supervised Learning（长尾分布）
-
-  https://arxiv.org/abs/2102.09559
-
-  https://zhuanlan.zhihu.com/p/360067653
 
   
 
@@ -551,15 +533,11 @@
 
 
 
-- [ ] **DeiT：**Training data-efficient image transformers & distillation through attention（Transformer）
-
-  https://arxiv.org/abs/2012.12877
-  
-  
-  
-- [ ] **YOLOX**: Exceeding YOLO Series in 2021
+- [x] **YOLOX**: Exceeding YOLO Series in 2021
 
   https://arxiv.org/abs/2107.08430
+  
+  
   
 - [x] **PP-YOLOv2**: A Practical Object Detector
 
