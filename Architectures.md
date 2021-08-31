@@ -12,8 +12,6 @@
 
 - [x] https://github.com/Inmessionant/Algorithm-Pattern-python
 
-- [ ] 背包问题九讲：https://github.com/tianyicui/pack
-
 - [ ] 百面机器学习
 
 - [x] 概率论与数理统计
