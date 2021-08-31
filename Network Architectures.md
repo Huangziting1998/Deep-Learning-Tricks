@@ -6,25 +6,13 @@
 
 - [ ] 程序员代码面试之南
 
-  
-
 - [x] https://github.com/youngyangyang04/leetcode-master
-
-
 
 - [x] https://github.com/Inmessionant/Algorithm-Pattern-python
 
+- [ ] 背包问题九讲：https://github.com/tianyicui/pack
 
-
-- [ ] 背包问题九讲
-
-  https://github.com/tianyicui/pack
-  
-  
-  
 - [ ] 百面机器学习
-
-
 
 - [x] 概率论与数理统计
 
@@ -52,11 +40,8 @@
 
   
 
-- [ ] 利用Python进行数据分析
+- [ ] 利用Python进行数据分析（2nd）
 
-  
-
-- [ ] 流畅的Python
 
 
 
@@ -83,26 +68,17 @@
 
 
 
-
-- [ ] Deep Learning with Python
-
-
-
 - [ ] Sklearn, Keras&TensorFlow机器学习实用指南（2nd Edition）
 
   
 
-- [ ] DEEP LEARNING
+- [ ] Deep Learning
 
 
 
-- [ ] Convex optimization
+- [ ] Convex Optimization
 
 
-
-- [ ] Nonlinear programming
-
-  
 
 - [ ] Machine Learning (2021) Mandarin Version
 
