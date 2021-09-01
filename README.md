@@ -75,11 +75,6 @@ Dali文档：https://docs.nvidia.com/deeplearning/sdk/dali-developer-guide/index
 
 **data Prefetch**
 
-```
-https://zhuanlan.zhihu.com/p/66145913
-https://zhuanlan.zhihu.com/p/97190313
-```
-
 
 
 **learning rate schedule**
@@ -223,12 +218,6 @@ And [here's](https://stats.stackexchange.com/questions/437840/in-machine-learnin
 
 
 ## Paper写作
-
-
-
-```
-Google Doc检查写作
-```
 
 
 
