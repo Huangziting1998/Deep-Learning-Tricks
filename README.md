@@ -43,7 +43,7 @@ conda install cudnn
 
 
 
-**找到训练过程的瓶颈**
+- **找到训练过程的瓶颈**
 
 ```
 https://pytorch.org/docs/stable/bottleneck.html
@@ -51,7 +51,7 @@ https://pytorch.org/docs/stable/bottleneck.html
 
 
 
-**图片解码**
+- **图片解码**
 
 PyTorch中默认使用的是Pillow进行图像的解码，但是其效率要比Opencv差一些，如果图片全部是JPEG格式，可以考虑使用TurboJpeg库解码。具体速度对比如下图所示：
 
@@ -61,9 +61,9 @@ PyTorch中默认使用的是Pillow进行图像的解码，但是其效率要比O
 
 
 
-**数据增强加速**
+- **数据增强加速**
 
-在PyTorch中，通常使用transformer做图片分类任务的数据增强，而其调用的是CPU做一些Crop、Flip、Jitter等操作。如果你通过观察发现你的CPU利用率非常高，GPU利用率比较低，那说明瓶颈在于CPU预处理，可以使用Nvidia提供的DALI库在GPU端完成这部分数据增强操作。
+在PyTorch中，通常使用transformer做图片分类任务的数据增强，而其调用的是CPU做一些Crop、Flip、Jitter等操作。如果你通过观察发现你的**CPU利用率非常高，GPU利用率比较低，**那说明瓶颈在于CPU预处理，可以使用Nvidia提供的DALI库在GPU端完成这部分数据增强操作。
 
 ```
 https://github.com/NVIDIA/DALI
@@ -73,11 +73,20 @@ Dali文档：https://docs.nvidia.com/deeplearning/sdk/dali-developer-guide/index
 
 
 
-**data Prefetch**
+- **data Prefetch & Use multiple workers and pinned memory in `DataLoader`**
+
+When using [`torch.utils.data.DataLoader`](https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader), set `num_workers > 0`, rather than the default value of 0, and `pin_memory=True`, rather than the default value of `False`. 
+
+A rule of thumb that [people are using ](https://discuss.pytorch.org/t/guidelines-for-assigning-num-workers-to-dataloader/813/5)to choose **the number of workers is to set it to four times the number of available GPUs** with both **a larger and smaller number of workers leading to a slow down.**
+
+```python
+ DataLoader(train_dataset, batch_size=opt.batch_size, shuffle=True, num_workers=opt.workers,
+                              pin_memory=True, prefetch_factor=2)  # prefetch works when pin_memory > 0
+```
 
 
 
-**learning rate schedule**
+- **learning rate schedule**
 
 **Cyclical Learning Rates** and the **1Cycle learning rate schedule** are both methods introduced by Leslie N. Smith. Essentially, the 1Cycle learning rate schedule looks something like this:
 
@@ -97,15 +106,7 @@ Sylvain writes:
 
 
 
-**Use multiple workers and pinned memory in `DataLoader`**
-
-When using [`torch.utils.data.DataLoader`](https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader), set `num_workers > 0`, rather than the default value of 0, and `pin_memory=True`, rather than the default value of `False`. 
-
-A rule of thumb that [people are using ](https://discuss.pytorch.org/t/guidelines-for-assigning-num-workers-to-dataloader/813/5)to choose **the number of workers is to set it to four times the number of available GPUs** with both **a larger and smaller number of workers leading to a slow down.**
-
-
-
-**Max out the batch size**
+- **Max out the batch size**
 
 It seems like using the largest batch size your GPU memory permits **will accelerate your training** . Note that you will also have to adjust other hyperparameters, such as the learning rate, if you modify the batch size. **A rule of thumb here is to double the learning rate as you double the batch size.**
 
@@ -113,13 +114,13 @@ It seems like using the largest batch size your GPU memory permits **will accele
 
 
 
-**Use Automatic Mixed Precision (AMP)**
+- **Use Automatic Mixed Precision (AMP)**
 
 The release of PyTorch 1.6 included a native implementation of Automatic Mixed Precision training to PyTorch. The main idea here is that certain operations can be run faster and without a loss of accuracy at semi-precision (FP16) rather than in the single-precision (FP32) used elsewhere. AMP, then, automatically decide which operation should be executed in which format. This allows both for faster training and a smaller memory footprint.
 
 
 
-**Using another optimizer**
+- **Using another optimizer**
 
 AdamW is Adam with weight decay (rather than L2-regularization) and is now available natively in PyTorch as 
 `torch.optim.AdamW`. AdamW seems to consistently outperform Adam in terms of both the error achieved and the training time. 
@@ -128,13 +129,13 @@ Both Adam and AdamW work well with the 1Cycle policy described above.
 
 
 
-**Turn on cudNN benchmarking**
+- **Turn on cudNN benchmarking**
 
 If your model architecture remains fixed and your input size stays constant, setting `torch.backends.cudnn.benchmark = True` might be beneficial. 
 
 
 
-**Beware of frequently transferring data between CPUs and GPUs**
+- **Beware of frequently transferring data between CPUs and GPUs**
 
 Beware of frequently transferring tensors from a GPU to a CPU using`tensor.cpu()` and vice versa using `tensor.cuda()` as these are relatively expensive. The same applies for `.item()` and `.numpy()` – use `.detach()` instead.
 
@@ -144,7 +145,7 @@ If you do need to transfer data, using `.to(device, non_blocking=True)`, might b
 
 
 
-**Use gradient/activation checkpointing**
+- **Use gradient/activation checkpointing**
 
 > Checkpointing works by trading compute for memory. Rather than storing all intermediate activations of the entire computation graph for computing backward, **the checkpointed part does not save intermediate activations, and instead recomputes them in backward pass.** It can be applied on any part of a model.
 
@@ -156,7 +157,7 @@ While checkpointing is implemented natively as `torch.utils.checkpoint`([docs](h
 
 
 
-**Use gradient accumulation**
+- **Use gradient accumulation**
 
 Another approach to increasing the batch size is to accumulate gradients across multiple `.backward()` passes before calling `optimizer.step()`.
 
@@ -164,7 +165,7 @@ This method was developed mainly to circumvent GPU memory limitations and I'm no
 
 
 
-**Use Distributed Data Parallel for multi-GPU training**
+- **Use Distributed Data Parallel for multi-GPU training**
 
 one simple one is to use `torch.nn.DistributedDataParallel` rather than `torch.nn.DataParallel`. By doing so, each GPU will be driven by a dedicated CPU core avoiding the GIL issues of `DataParallel`.
 
