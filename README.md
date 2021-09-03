@@ -173,7 +173,7 @@ https://pytorch.org/tutorials/beginner/dist_overview.html
 
 
 
-**Set gradients to None rather than 0**
+- **Set gradients to None rather than 0**
 
 Use `.zero_grad(set_to_none=True)` rather than `.zero_grad()`.
 
@@ -183,31 +183,31 @@ Watch out, **doing this is not side-effect free**! Check the docs for the detail
 
 
 
-**Use `.as_tensor()` rather than `.tensor()`**
+- **Use `.as_tensor()` rather than `.tensor()`**
 
 `torch.tensor()` always copies data. If you have a numpy array that you want to convert, use `torch.as_tensor()` or `torch.from_numpy()` to avoid copying the data.
 
 
 
-**Use gradient clipping**
+- **Use gradient clipping**
 
 In PyTorch this can be done using `torch.nn.utils.clip_grad_norm_`([documentation](https://pytorch.org/docs/stable/generated/torch.nn.utils.clip_grad_norm_.html#torch.nn.utils.clip_grad_norm_)).
 
 
 
-**urn off bias before BatchNorm**
+- **Turn off bias before BatchNorm**
 
 This is a very simple one: turn off the bias of layers before BatchNormalization layers. For a 2-D convolutional layer, this can be done by setting the bias keyword to False: `torch.nn.Conv2d(..., bias=False, ...)`.
 
 
 
-**Turn off gradient computation during validation**
+- **Turn off gradient computation during validation**
 
 This one is straightforward: set `torch.no_grad()` during validation.
 
 
 
-**Use input and batch normalization**
+- **Use input and batch normalization**
 
 You're probably already doing this but you might want to double-check:
 
