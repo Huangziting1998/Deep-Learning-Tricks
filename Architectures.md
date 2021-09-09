@@ -2,19 +2,16 @@
 
 
 
-### 算法岗
+### 秋招算法
 
 　
 
 - [ ] 程序员代码面试之南
-
-- [x] https://github.com/youngyangyang04/leetcode-master
-
-- [x] https://github.com/Inmessionant/Algorithm-Pattern-python
-
 - [ ] 百面机器学习
-
+- [x] 百面深度学习
 - [x] 概率论与数理统计
+- [x] https://github.com/youngyangyang04/leetcode-master
+- [x] https://github.com/Inmessionant/Algorithm-Pattern-python
 
 
 
@@ -34,33 +31,63 @@
 
 
 
+------
+
+
+
+### 凸优化
+
+
+
+- [ ] Convex Optimization
+
 
 
 ------
 
 
 
-### 机器学习 & 深度学习
+### 图
+
+
+
+- [ ] Graph Representation Learning
+
+
+
+------
+
+
+
+### 机器学习
+
+
+
+- [x] 浙江大学-研究生机器学习
+- [ ] 林轩田 - 机器学习基石 / 机器学习技法
+- [ ] Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition
+- [ ] Building Machine Learning Powered Applications Going from Idea to Product
+- [ ] Machine Learning (2021) ：https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J
+- [ ] Patterns, Predictions, and Actions- A Story About Machine Learning
+- [ ] Book 0: “Machine Learning: A Probabilistic Perspective” (2012)
+- [ ] Book 1: “Probabilistic Machine Learning: An Introduction” (2021)
+- [ ] Book 2: “Probabilistic Machine Learning: Advanced Topics” (2022)
+
+------
+
+
+
+### 深度学习
 
 
 
 - [x] Neural Networks and Deep Learning
-
-- [x] 浙江大学-研究生机器学习
-
-- [x] 动手学习深度学习（PyTorch）v2：https://courses.d2l.ai/zh-v2/
 - [ ] 邱锡鹏 - 神经网络与深度学习
-- [ ] 林轩田 - 机器学习基石 / 机器学习技法
-
-- [ ] Sklearn, Keras&TensorFlow机器学习实用指南（2nd Edition）
-
+- [x] 动手学习深度学习（PyTorch）v2：https://courses.d2l.ai/zh-v2/
 - [ ] Deep Learning
+- [ ] Deep Learning for Coders With Fastai and Pytorch Ai Applications Without a Phd
 
-- [ ] Convex Optimization
 
-- [ ] Machine Learning (2021) ：https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J
-
-  
 
 ------
 
