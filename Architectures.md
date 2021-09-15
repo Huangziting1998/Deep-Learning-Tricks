@@ -75,11 +75,11 @@
 
 
 
-- [x] 浙江大学-研究生机器学习
+- [x] 浙江大学 - 研究生机器学习
 - [ ] 林轩田 - 机器学习基石 / 机器学习技法
 - [ ] Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition
 - [ ] Building Machine Learning Powered Applications Going from Idea to Product
-- [ ] Machine Learning (2021) ：https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J
+- [ ] 李宏毅 - Machine Learning：https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J
 - [ ] Patterns, Predictions, and Actions- A Story About Machine Learning
 - [ ] Book 0: “Machine Learning: A Probabilistic Perspective” (2012)
 - [ ] Book 1: “Probabilistic Machine Learning: An Introduction” (2021)
