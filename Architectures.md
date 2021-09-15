@@ -85,6 +85,8 @@
 - [ ] Book 1: “Probabilistic Machine Learning: An Introduction” (2021)
 - [ ] Book 2: “Probabilistic Machine Learning: Advanced Topics” (2022)
 
+
+
 ------
 
 
