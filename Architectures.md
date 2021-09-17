@@ -80,6 +80,7 @@
 - [ ] Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition
 - [ ] Building Machine Learning Powered Applications Going from Idea to Product
 - [ ] 李宏毅 - Machine Learning：https://www.youtube.com/watch?v=Ye018rCVvOo&list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J
+- [ ] 李沐 - 实用机器学习：https://c.d2l.ai/stanford-cs329p/
 - [ ] Patterns, Predictions, and Actions- A Story About Machine Learning
 - [ ] Book 0: “Machine Learning: A Probabilistic Perspective” (2012)
 - [ ] Book 1: “Probabilistic Machine Learning: An Introduction” (2021)
@@ -97,7 +98,7 @@
 
 - [x] Neural Networks and Deep Learning
 - [ ] 邱锡鹏 - 神经网络与深度学习
-- [x] 动手学习深度学习（PyTorch）v2：https://courses.d2l.ai/zh-v2/
+- [x] 李沐 - 动手学习深度学习（PyTorch）v2：https://courses.d2l.ai/zh-v2/
 - [ ] Deep Learning
 - [ ] Deep Learning for Coders With Fastai and Pytorch Ai Applications Without a Phd
 
